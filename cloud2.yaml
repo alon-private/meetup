@@ -26,7 +26,6 @@ modules:
     project: Taurus Tests Group
 provisioning: cloud
 reporting:
-  - console
   - module: junit-xml
     filename: junit.xml
     data-source: pass-fail
@@ -34,7 +33,6 @@ reporting:
     criterias:
       - avg-rt of homepage2>400ms for 10s, stop as failed
       - avg-rt of confirmation>30ms for 10s, continue as failed
-      - fail of >10% for , stop as failed
 
 
 
