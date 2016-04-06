@@ -1,0 +1,62 @@
+---
+execution:
+  scenario: blazemeter-recording
+  concurrency: 10
+  ramp-up: 1m
+  hold-for: 5m
+scenarios:
+  blazemeter-recording:
+    headers:
+      Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+      Upgrade-Insecure-Requests: '1'
+      User-Agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.108 Safari/537.36'
+      Accept-Language: 'en-US,en;q=0.8,he;q=0.6'
+    requests:
+      - url: 'http://blazedemo.com/'
+        method: GET
+        label: 'http://blazedemo.com/'
+        headers:
+          Accept-Encoding: 'gzip, deflate, sdch'
+      - url: 'http://blazedemo.com/reserve.php'
+        method: POST
+        label: 'http://blazedemo.com/reserve.php'
+        headers:
+          Origin: 'http://blazedemo.com'
+          Content-Type: application/x-www-form-urlencoded
+          Referer: 'http://blazedemo.com/'
+          Accept-Encoding: 'gzip, deflate'
+        body:
+          fromPort: Boston
+          toPort: London
+      - url: 'http://blazedemo.com/purchase.php'
+        method: POST
+        label: 'http://blazedemo.com/purchase.php'
+        headers:
+          Origin: 'http://blazedemo.com'
+          Content-Type: application/x-www-form-urlencoded
+          Referer: 'http://blazedemo.com/reserve.php'
+          Accept-Encoding: 'gzip, deflate'
+        body:
+          airline: United Airlines
+          flight: '234'
+          fromPort: Boston
+          price: '432.98'
+          toPort: London
+      - url: 'http://blazedemo.com/confirmation.php'
+        method: POST
+        label: 'http://blazedemo.com/confirmation.php'
+        headers:
+          Origin: 'http://blazedemo.com'
+          Content-Type: application/x-www-form-urlencoded
+          Referer: 'http://blazedemo.com/purchase.php'
+          Accept-Encoding: 'gzip, deflate'
+        body:
+          address: 2390 El Camino Real
+          cardType: visa
+          city: Palo Alto
+          creditCardNumber: '1111114'
+          inputName: Alon
+          nameOnCard: John
+          rememberMe: 'on'
+          state: California
+          zipCode: '94306'
