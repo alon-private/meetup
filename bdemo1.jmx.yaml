@@ -1,0 +1,78 @@
+---
+scenarios:
+  bdemo1:
+    requests:
+    - headers:
+        Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+        Accept-Encoding: gzip,deflate,sdch
+        Accept-Language: en-US,en;q=0.8,he;q=0.6
+        Upgrade-Insecure-Requests: '1'
+        User-Agent: Mozilla/5.0(Macintosh;IntelMacOSX10_11_3)AppleWebKit/537.36(KHTML,likeGecko)Chrome/49.0.2623.108Safari/537.36
+      label: home
+      method: GET
+      url: http://blazedemo.com/
+    - body:
+        fromPort: Boston
+        toPort: London
+      headers:
+        Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+        Accept-Encoding: gzip,deflate
+        Accept-Language: en-US,en;q=0.8,he;q=0.6
+        Content-Type: application/x-www-form-urlencoded
+        Origin: http://blazedemo.com
+        Referer: http://blazedemo.com/
+        Upgrade-Insecure-Requests: '1'
+        User-Agent: Mozilla/5.0(Macintosh;IntelMacOSX10_11_3)AppleWebKit/537.36(KHTML,likeGecko)Chrome/49.0.2623.108Safari/537.36
+      label: reserve
+      method: POST
+      url: http://blazedemo.com/reserve.php
+    - body:
+        airline: UnitedAirlines
+        flight: '234'
+        fromPort: Boston
+        price: '432.98'
+        toPort: London
+      headers:
+        Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+        Accept-Encoding: gzip,deflate
+        Accept-Language: en-US,en;q=0.8,he;q=0.6
+        Content-Type: application/x-www-form-urlencoded
+        Origin: http://blazedemo.com
+        Referer: http://blazedemo.com/reserve.php
+        Upgrade-Insecure-Requests: '1'
+        User-Agent: Mozilla/5.0(Macintosh;IntelMacOSX10_11_3)AppleWebKit/537.36(KHTML,likeGecko)Chrome/49.0.2623.108Safari/537.36
+      label: purchase
+      method: POST
+      url: http://blazedemo.com/purchase.php
+    - assert:
+      - contains:
+        - Thank you for your purchasE.
+        not: false
+        regexp: false
+        subject: body
+      body:
+        address: 2390ElCaminoReal
+        cardType: visa
+        city: PaloAlto
+        creditCardNumber: '1111114'
+        inputName: Alon
+        nameOnCard: John
+        rememberMe: 'on'
+        state: California
+        zipCode: '94306'
+      headers:
+        Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+        Accept-Encoding: gzip,deflate
+        Accept-Language: en-US,en;q=0.8,he;q=0.6
+        Content-Type: application/x-www-form-urlencoded
+        Origin: http://blazedemo.com
+        Referer: http://blazedemo.com/purchase.php
+        Upgrade-Insecure-Requests: '1'
+        User-Agent: Mozilla/5.0(Macintosh;IntelMacOSX10_11_3)AppleWebKit/537.36(KHTML,likeGecko)Chrome/49.0.2623.108Safari/537.36
+      label: confirmation
+      method: POST
+      url: http://blazedemo.com/confirmation.php
+    store-cache: true
+    store-cookie: true
+    use-dns-cache-mgr: false
+

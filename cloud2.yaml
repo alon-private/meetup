@@ -1,8 +1,40 @@
 ---
+execution:
+- scenario: bdemo1
+  concurrency:
+      local: 10
+      cloud: 5000
+  locations:
+      us-west-1: 1             # AWS US W
+      us-east-1: 1             # AWS US E
+      us-central1-a: 1         # GCE US C
+      us-west-2: 1
+#      europe-west1-b: 1        # GCE EU W
+  locations-weighted: true
+  ramp-up: 30s
+  hold-for: 1m
 modules:
   cloud:
     token: 6505dd904170db7a7d08
     timeout: 5
     browser-open: start
     test: TT3
+  blazemeter:
+    token: 6505dd904170db7a7d08
+    report-name: Jenkins Build 1
+    test: Taurus Demo
+    project: Taurus Tests Group
 provisioning: cloud
+reporting:
+  - console
+  - module: junit-xml
+    filename: junit.xml
+    data-source: pass-fail
+  - module: fail-criteria
+    criterias:
+      - avg-rt of homepage2>400ms for 10s, stop as failed
+      - avg-rt of confirmation>30ms for 10s, continue as failed
+      - fail of >10% for , stop as failed
+
+
+
