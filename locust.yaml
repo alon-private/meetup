@@ -1,0 +1,15 @@
+---
+execution:
+	executor: locust
+	ramp-up: 1m
+	iterations: 1000
+	scenario:
+  		script: locustfile.py
+  		default-address: http://example.com
+	concurrency: 5
+modules:
+	cloud:
+	    token: 6505dd904170db7a7d08
+	    timeout: 5
+	    browser-open: start
+	    test: TT3

@@ -1,0 +1,36 @@
+---
+execution:
+  - executer:                 locust
+    concurrency:              
+      local:                  20
+      cloud:                  2000  
+    ramp-up:                  1m
+    hold-for:                 1m30s
+    locations: 
+      eu-west-1:              2
+    scenario:
+      script: locustfile.py
+      default-address: http://example.com
+
+modules:
+  cloud:
+    token: 6505dd904170db7a7d08
+    timeout: 5
+    browser-open: start
+
+reporting:
+  - module: fail-criteria
+    criterias:
+      - avg-rt of "/login">40ms for 10s, stop as failed
+      - avg-rt of confirmation>30ms for 10s, continue as failed
+      - fail of >10% for , stop as failed
+  - module: junit-xml
+    filename: junit.xml
+    data-source: pass-fail
+
+modules:
+  cloud:
+    token: 6505dd904170db7a7d08
+    timeout: 5
+    browser-open: start
+    test: TT3

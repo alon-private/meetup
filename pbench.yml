@@ -1,0 +1,19 @@
+---
+scenarios:
+  pbench-example:
+    default-address: http://blazedemo.com
+    timeout: 10s  # important setting, affects for how long its workers are busy with request
+    headers:
+      User-Agent: Mozilla
+    requests:
+      - /
+      - url: /vacation.html
+        headers:
+          Accept: "*/*"
+        method: POST
+        body:
+          formParam1: value1
+          formParam2: value2
+      - url: /do.php
+        method: PUT
+        body: '{"json": "body"}'

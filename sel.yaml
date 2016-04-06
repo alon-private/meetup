@@ -1,0 +1,36 @@
+---
+scenarios:
+  scen1:
+    browser: Firefox
+    timeout: 10  #  global scenario timeout for connecting, receiving results, 30 seconds by default
+    think-time: 1s500ms  # global scenario delay between each request
+    requests:
+    - url: "http://demo.blazemeter.com/"  # url to open, only get method is supported
+      assert:
+      - contains:
+        - blazemeter  # list of search patterns
+        - Trusted
+        subject: body # only body subject supported
+        regexp: false  # treat string as regular expression
+        not: false  # inverse assertion condition
+    - url: "http://yahoo.com/"  # url to open, only get method is supported
+
+execution:
+  - scenario: scen1
+    executor: "selenium"
+    hold-for: 1m
+  - scenario: scen1
+    executor: "selenium"
+    hold-for: 2m
+  - scenario: scen1
+    executor: "selenium"
+    hold-for: 3m
+  - scenario: scen1
+    executor: "selenium"
+    hold-for: 4m
+
+modules:
+  selenium:
+    virtual-display:
+      width: 1024
+      height: 768

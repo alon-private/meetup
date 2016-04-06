@@ -1,0 +1,11 @@
+---
+execution:
+  - scenario:
+      data-sources: 
+        - path:             urls.csv 
+      requests:
+        - url:              ${url}  
+          label:            ${label}
+    concurrency: 20
+    ramp-up: 30s
+    hold-for: 30s

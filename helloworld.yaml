@@ -1,0 +1,7 @@
+---
+execution:
+ hold-for: 1m
+ scenario:
+  requests:
+   - http://blazedemo.com/
+   - http://demo.blazemeter.com/

@@ -1,0 +1,10 @@
+---
+scenarios:
+  existing:
+    script:         blazedemo.jmx
+    modifications:
+      disable:  
+        - http://blazedemo.com/
+execution:
+  scenario:         existing
+  hold-for:         1m

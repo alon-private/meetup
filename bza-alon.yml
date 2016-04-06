@@ -1,0 +1,9 @@
+---
+modules:
+  blazemeter:
+    token:        6505dd904170db7a7d08
+    timeout:      500
+    browser-open: none
+reporting:
+  - module:       blazemeter
+    test:         Taurus Demo

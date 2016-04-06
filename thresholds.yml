@@ -1,0 +1,59 @@
+#!/usr/local/bin/bzt
+---
+reporting:
+  - module: fail-criteria
+    criterias:
+      - avg-rt of homepage2>400ms for 10s, stop as failed
+      - avg-rt of confirmation>30ms for 10s, continue as failed
+      - fail of >10% for , stop as failed
+  - module: junit-xml
+    filename: junit.xml
+    data-source: pass-fail
+execution:
+  - executor: jmeter
+    scenario: 
+      script:         blazedemo.jmx
+      modifications:
+        disable:  
+          - http://blazedemo.com/
+    concurrency: 
+      local: 10
+      cloud: 500
+    throughput: 
+      local: 1
+      cloud: 50
+    ramp-up: 20s
+    hold-for: 400m
+    locations:
+      eu-west-1: 1
+    locations-weighted: true
+
+  - executor: locust
+    concurrency: 
+      local: 10
+      cloud: 500
+    throughput: 
+      local: 1
+      cloud: 50
+    locations:
+      europe-west1-b: 2
+    locations-weighted: true
+    ramp-up: 30s
+    hold-for: 400m
+    scenario:
+      script: locustfile.py
+      default-address: http://example.com
+
+  # - scenario: blazedemo
+  #   concurrency: 
+  #     local: 10
+  #     cloud: 500
+  #   throughput: 
+  #     local: 1
+  #     cloud: 50
+  #   locations:
+  #     eu-west-1: 1
+  #     europe-west1-b: 2
+  #   locations-weighted: true
+  #   ramp-up: 10s
+  #   hold-for: 50m
