@@ -21,9 +21,8 @@ modules:
     test: TT3
   blazemeter:
     token: 6505dd904170db7a7d08
-    report-name: Jenkins Build 1
-    test: Taurus Demo
-    project: Taurus Tests Group
+    browser-open: none
+
 provisioning: cloud
 reporting:
   - module: junit-xml
@@ -33,6 +32,10 @@ reporting:
     criterias:
       - avg-rt of homepage2>400ms for 10s, stop as failed
       - avg-rt of confirmation>30ms for 10s, continue as failed
+  - module: blazemeter
+    report-name: Jenkins Build 1
+    test: Taurus Demo
+    project: Taurus Tests Group
 
 
 
