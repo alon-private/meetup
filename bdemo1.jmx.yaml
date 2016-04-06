@@ -46,7 +46,7 @@ scenarios:
       url: http://blazedemo.com/purchase.php
     - assert:
       - contains:
-        - Thank you for your purchasE.
+        - Thank you for your purchase.
         not: false
         regexp: false
         subject: body

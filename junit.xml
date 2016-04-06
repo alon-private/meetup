@@ -1,12 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuite name="bzt_pass_fail" package="bzt">
-  <testcase classname="Taurus Demo" name="avg-rt of homepage2&gt;400ms for 10s">
-    <system-out>BlazeMeter report link: https://a.blazemeter.com/app/#reports/r-ext-57055d5700ea7
+  <testcase classname="Taurus Demo" name="avg-rt of home&gt;400ms for 100s">
+    <system-out>BlazeMeter report link: https://a.blazemeter.com/app/#reports/r-ext-57056011b44e7
 </system-out>
   </testcase>
-  <testcase classname="Taurus Demo" name="avg-rt of confirmation&gt;30ms for 10s">
-    <system-out>BlazeMeter report link: https://a.blazemeter.com/app/#reports/r-ext-57055d5700ea7
+  <testcase classname="Taurus Demo" name="avg-rt of reserve&gt;30ms for 100s">
+    <system-out>BlazeMeter report link: https://a.blazemeter.com/app/#reports/r-ext-57056011b44e7
 </system-out>
-    <error message="" type="pass/fail criteria triggered"/>
   </testcase>
 </testsuite>
