@@ -29,8 +29,8 @@ reporting:
     data-source: pass-fail
   - module: fail-criteria
     criterias:
-      - avg-rt of home>40ms for 10s, stop as failed
-      - avg-rt of reserve>30ms for 10s, continue as failed
+      - avg-rt of home>4000ms for 10s, stop as failed
+      - avg-rt of reserve>3000ms for 10s, continue as failed
   - module: blazemeter
     report-name: Jenkins Build 1
     test: Taurus Demo
