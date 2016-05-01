@@ -1,0 +1,14 @@
+---
+execution:
+- scenario:
+    script: rc_dyn_1m.jmx
+  concurrency:
+      local: 5
+      cloud: 5000
+  locations:
+      us-west-1: 1             # AWS US W
+      us-east-1: 1             # AWS US E
+  locations-weighted: true
+  ramp-up: 30s
+  hold-for: 1m
+

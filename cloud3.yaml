@@ -1,0 +1,15 @@
+---
+execution:
+- scenario: bdemo1
+  cconcurrency:
+      local: 10
+      cloud: 5000
+  locations:
+      us-west-1: 1             # AWS US W
+      us-east-1: 1             # AWS US E
+      us-central1-a: 1         # GCE US C
+      us-west-2: 1
+#      europe-west1-b: 1        # GCE EU W
+  locations-weighted: true
+  ramp-up: 30s
+  hold-for: 1m

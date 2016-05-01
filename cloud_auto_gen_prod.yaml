@@ -1,0 +1,18 @@
+---
+modules:
+  cloud:
+    token: 6505dd904170db7a7d08
+    timeout: 5000
+    test: TT3
+  blazemeter:
+    token: 6505dd904170db7a7d08
+    browser-open: none
+provisioning: local
+reporting:
+  - module: junit-xml
+    filename: junit.xml
+    data-source: pass-fail
+  - module: blazemeter
+    report-name: Jenkins Build 1
+    test: Taurus Demo
+    project: Taurus Tests Group
