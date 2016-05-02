@@ -1,53 +1,1393 @@
-2016/05/01 15:16:02 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: Loading user properties from: /Users/alongir/.bzt/jmeter-taurus/bin/user.properties 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: Loading system properties from: /Users/alongir/.bzt/jmeter-taurus/bin/system.properties 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: Copyright (c) 1998-2015 The Apache Software Foundation 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: Version 2.13 r1665067 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: java.version=1.8.0_77 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: os.name=Mac OS X 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: os.arch=x86_64 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: os.version=10.11.3 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: file.encoding=UTF-8 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: Default Locale=English (United States) 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: JMeterHome=/Users/alongir/.bzt/jmeter-taurus 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: user.dir  =/Users/alongir/PhpstormProjects/meetup-taurus040616 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: PWD       =/Users/alongir/PhpstormProjects/meetup-taurus040616 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: IP: 192.168.128.56 Name: Alons-MacBook-Pro.local FullName: 192.168.128.56 
-2016/05/01 15:16:02 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System] 
-2016/05/01 15:16:02 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
-2016/05/01 15:16:04 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
-2016/05/01 15:16:04 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
-2016/05/01 15:16:06 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
-2016/05/01 15:16:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
-2016/05/01 15:16:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
-2016/05/01 15:16:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
-2016/05/01 15:16:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
-2016/05/01 15:16:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
-2016/05/01 15:16:06 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
-2016/05/01 15:16:06 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.control.gui.WebServiceSamplerGui 
-2016/05/01 15:16:06 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.modifier.gui.ParamModifierGui 
-2016/05/01 15:16:06 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
-2016/05/01 15:16:06 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/alongir/.bzt/jmeter-taurus/bin/proxyserver.jks 
-2016/05/01 15:16:07 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
-2016/05/01 15:16:07 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
-2016/05/01 15:16:07 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
-2016/05/01 15:16:07 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
-2016/05/01 15:16:13 INFO  - jmeter.services.FileServer: Default base='/Users/alongir/PhpstormProjects/meetup-taurus040616' 
-2016/05/01 15:16:13 INFO  - jmeter.gui.action.Load: Loading file: /Users/alongir/Downloads/Subway.jmx 
-2016/05/01 15:16:13 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/Downloads' 
-2016/05/01 15:16:13 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
-2016/05/01 15:16:13 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
-2016/05/01 15:16:13 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1656252 
-2016/05/01 15:16:13 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.8 
-2016/05/01 15:16:13 INFO  - jmeter.save.SaveService: All converter versions present and correct 
-2016/05/01 15:16:13 INFO  - jmeter.save.SaveService: Loading file: /Users/alongir/Downloads/Subway.jmx 
-2016/05/01 15:16:13 INFO  - jmeter.protocol.http.control.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_ 
-2016/05/01 15:16:13 INFO  - jmeter.protocol.http.sampler.HTTPHCAbstractImpl: Local host = Alons-MacBook-Pro.local 
-2016/05/01 15:16:13 INFO  - jmeter.protocol.http.sampler.HTTPHC3Impl: HTTP request retry count = 0 
-2016/05/01 15:16:13 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/Downloads' 
-2016/05/01 15:16:16 INFO  - jmeter.gui.action.Load: Loading file: /Users/alongir/jmx/rc_dyn_1m.jmx 
-2016/05/01 15:16:16 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/jmx' 
-2016/05/01 15:16:16 INFO  - jmeter.save.SaveService: Loading file: /Users/alongir/jmx/rc_dyn_1m.jmx 
-2016/05/01 15:16:16 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/jmx' 
+2016/05/01 18:21:56 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2016/05/01 18:21:56 INFO  - jmeter.JMeter: Loading user properties from: /Users/alongir/.bzt/jmeter-taurus/bin/user.properties 
+2016/05/01 18:21:56 INFO  - jmeter.JMeter: Loading system properties from: /Users/alongir/.bzt/jmeter-taurus/bin/system.properties 
+2016/05/01 18:21:56 INFO  - jmeter.JMeter: Copyright (c) 1998-2015 The Apache Software Foundation 
+2016/05/01 18:21:56 INFO  - jmeter.JMeter: Version 2.13 r1665067 
+2016/05/01 18:21:56 INFO  - jmeter.JMeter: java.version=1.8.0_77 
+2016/05/01 18:21:56 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2016/05/01 18:21:56 INFO  - jmeter.JMeter: os.name=Mac OS X 
+2016/05/01 18:21:56 INFO  - jmeter.JMeter: os.arch=x86_64 
+2016/05/01 18:21:56 INFO  - jmeter.JMeter: os.version=10.11.3 
+2016/05/01 18:21:56 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2016/05/01 18:21:56 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2016/05/01 18:21:56 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2016/05/01 18:21:56 INFO  - jmeter.JMeter: JMeterHome=/Users/alongir/.bzt/jmeter-taurus 
+2016/05/01 18:21:56 INFO  - jmeter.JMeter: user.dir  =/Users/alongir/PhpstormProjects/meetup-taurus040616 
+2016/05/01 18:21:56 INFO  - jmeter.JMeter: PWD       =/Users/alongir/PhpstormProjects/meetup-taurus040616 
+2016/05/01 18:21:57 INFO  - jmeter.JMeter: IP: 192.168.128.56 Name: Alons-MacBook-Pro.local FullName: 192.168.128.56 
+2016/05/01 18:21:57 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System] 
+2016/05/01 18:21:57 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2016/05/01 18:21:58 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2016/05/01 18:21:58 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2016/05/01 18:22:00 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2016/05/01 18:22:00 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2016/05/01 18:22:00 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2016/05/01 18:22:00 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2016/05/01 18:22:00 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2016/05/01 18:22:00 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2016/05/01 18:22:00 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2016/05/01 18:22:00 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.control.gui.WebServiceSamplerGui 
+2016/05/01 18:22:00 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.modifier.gui.ParamModifierGui 
+2016/05/01 18:22:00 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
+2016/05/01 18:22:00 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/alongir/.bzt/jmeter-taurus/bin/proxyserver.jks 
+2016/05/01 18:22:01 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2016/05/01 18:22:01 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2016/05/01 18:22:01 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2016/05/01 18:22:01 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2016/05/01 18:22:10 INFO  - jmeter.services.FileServer: Default base='/Users/alongir/PhpstormProjects/meetup-taurus040616' 
+2016/05/01 18:22:10 INFO  - jmeter.gui.action.Load: Loading file: /Users/alongir/jmx/rc_dyn_1m_gen2.jmx 
+2016/05/01 18:22:10 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/jmx' 
+2016/05/01 18:22:10 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2016/05/01 18:22:10 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2016/05/01 18:22:10 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1656252 
+2016/05/01 18:22:10 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.8 
+2016/05/01 18:22:10 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2016/05/01 18:22:10 INFO  - jmeter.save.SaveService: Loading file: /Users/alongir/jmx/rc_dyn_1m_gen2.jmx 
+2016/05/01 18:22:10 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/jmx' 
+2016/05/01 18:22:19 INFO  - jmeter.gui.action.Load: Loading file: /Users/alongir/jmx/rc_dyn_1m_gen21.jmx 
+2016/05/01 18:22:19 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/jmx' 
+2016/05/01 18:22:19 INFO  - jmeter.save.SaveService: Loading file: /Users/alongir/jmx/rc_dyn_1m_gen21.jmx 
+2016/05/01 18:22:19 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/jmx' 
+2016/05/01 18:24:42 INFO  - jmeter.gui.action.Load: Loading file: /Users/alongir/jmx/rc_dyn_1m.jmx 
+2016/05/01 18:24:42 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/jmx' 
+2016/05/01 18:24:42 INFO  - jmeter.save.SaveService: Loading file: /Users/alongir/jmx/rc_dyn_1m.jmx 
+2016/05/01 18:24:42 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/jmx' 
+2016/05/01 18:26:33 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
+2016/05/01 18:26:33 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
+2016/05/01 18:26:33 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/05/01 18:26:33 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/05/01 18:26:33 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/05/01 18:26:33 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Storing results for upload to Sense: /tmp/Sense_7339975267196746256.jtl 
+2016/05/01 18:26:33 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Starting BM.Sense online test 
+2016/05/01 18:26:34 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Saving server error response to: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/error_3934957755706086196.html 
+2016/05/01 18:26:34 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Failed to start active test 
+2016/05/01 18:26:34 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to initiate active test org.apache.commons.httpclient.HttpException: Request returned not 201 status code: 403
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:206)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.startOnline(LoadosophiaAPIClient.java:105)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.initiateOnline(LoadosophiaConsolidator.java:242)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.start(LoadosophiaConsolidator.java:98)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.add(LoadosophiaConsolidator.java:61)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testStarted(LoadosophiaUploader.java:42)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testStarted(LoadosophiaUploader.java:28)
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfStart(StandardJMeterEngine.java:214)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:336)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/01 18:26:34 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/05/01 18:26:35 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2016/05/01 18:26:35 INFO  - jmeter.engine.StandardJMeterEngine: Starting 30 threads for group Thread Group. 
+2016/05/01 18:26:35 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/05/01 18:26:35 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 30 ramp-up 15 perThread 500.0 delayedStart=false 
+2016/05/01 18:26:35 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2016/05/01 18:26:35 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2016/05/01 18:26:35 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2016/05/01 18:26:35 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/05/01 18:26:35 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/05/01 18:26:35 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2016/05/01 18:26:36 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2016/05/01 18:26:36 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2016/05/01 18:26:37 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2016/05/01 18:26:37 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2016/05/01 18:26:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2016/05/01 18:26:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2016/05/01 18:26:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2016/05/01 18:26:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2016/05/01 18:26:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2016/05/01 18:26:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2016/05/01 18:26:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-13 
+2016/05/01 18:26:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-14 
+2016/05/01 18:26:42 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-15 
+2016/05/01 18:26:42 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-16 
+2016/05/01 18:26:43 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-17 
+2016/05/01 18:26:43 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-18 
+2016/05/01 18:26:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-19 
+2016/05/01 18:26:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-20 
+2016/05/01 18:26:45 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-21 
+2016/05/01 18:26:45 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-22 
+2016/05/01 18:26:46 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-23 
+2016/05/01 18:26:46 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-24 
+2016/05/01 18:26:47 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-25 
+2016/05/01 18:26:47 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-26 
+2016/05/01 18:26:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-27 
+2016/05/01 18:26:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-28 
+2016/05/01 18:26:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-29 
+2016/05/01 18:26:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-30 
+2016/05/01 18:27:05 INFO  - jmeter.gui.action.Start: Stopping test 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-26 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-26 sampler: arbitrary2 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-25 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-25 sampler: Checkout 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-4 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-4 sampler: Checkout 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-30 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-30 sampler: Login 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-10 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-25 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-26 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-10 sampler: Download 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-30 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-21 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-21 sampler: Checkout 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-3 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-3 sampler: Checkout 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-21 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-22 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-22 sampler: Download 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-27 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-27 sampler: arbitrary1 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-5 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-5 sampler: Login 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-8 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-8 sampler: Login 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-13 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-22 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-13 sampler: Checkout 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-27 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-19 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-19 sampler: Login 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-14 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-14 sampler: Checkout 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-11 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-11 sampler: Login 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-23 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-23 sampler: Checkout 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-28 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-28 sampler: arbitrary2 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-11 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-13 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-23 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-7 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-14 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-19 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-7 sampler: Checkout 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-28 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-12 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-12 sampler: Download 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-17 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-17 sampler: arbitrary2 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-29 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-29 sampler: Download 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-2 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-2 sampler: Download 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-17 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-29 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-12 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-9 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-9 sampler: Download 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-6 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-6 sampler: Login 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-15 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-15 sampler: Login 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-18 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-18 sampler: Download 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-15 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-18 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-24 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-24 sampler: Login 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-20 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-20 sampler: Download 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-1 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-1 sampler: Login 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-16 
+2016/05/01 18:27:05 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-16 sampler: Login 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-24 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-20 
+2016/05/01 18:27:05 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-16 
+2016/05/01 18:27:05 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/05/01 18:27:05 INFO  - jmeter.reporters.ResultCollector: forced flush through ResultCollecto#flushFile 
+2016/05/01 18:27:05 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Successfully flushed results file 
+2016/05/01 18:27:05 INFO  - org.loadosophia.jmeter.LoadosophiaAPIClient: Preparing files to send 
+2016/05/01 18:27:05 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Gzipping /tmp/Sense_7339975267196746256.jtl 
+2016/05/01 18:27:05 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Starting upload to BM.Sense 
+2016/05/01 18:27:05 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Saving server error response to: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/error_8840621181078260231.html 
+2016/05/01 18:27:05 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Failed to upload results to BM.Sense, see log for detais: Request returned not 200 status code: 403 
+2016/05/01 18:27:05 ERROR - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to upload results to BM.Sense org.apache.commons.httpclient.HttpException: Request returned not 200 status code: 403
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:206)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendFiles(LoadosophiaAPIClient.java:76)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.stop(LoadosophiaConsolidator.java:119)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.remove(LoadosophiaConsolidator.java:80)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:47)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:33)
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:226)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:448)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/01 18:27:05 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/05/01 18:27:10 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/05/01 18:27:10 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/05/01 18:27:10 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Storing results for upload to Sense: /tmp/Sense_581931075236011855.jtl 
+2016/05/01 18:27:10 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Starting BM.Sense online test 
+2016/05/01 18:27:10 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Saving server error response to: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/error_6829028328994679990.html 
+2016/05/01 18:27:10 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Failed to start active test 
+2016/05/01 18:27:10 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to initiate active test org.apache.commons.httpclient.HttpException: Request returned not 201 status code: 403
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:206)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.startOnline(LoadosophiaAPIClient.java:105)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.initiateOnline(LoadosophiaConsolidator.java:242)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.start(LoadosophiaConsolidator.java:98)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.add(LoadosophiaConsolidator.java:61)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testStarted(LoadosophiaUploader.java:42)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testStarted(LoadosophiaUploader.java:28)
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfStart(StandardJMeterEngine.java:214)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:336)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/01 18:27:10 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/05/01 18:27:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2016/05/01 18:27:11 INFO  - jmeter.engine.StandardJMeterEngine: Starting 30 threads for group Thread Group. 
+2016/05/01 18:27:11 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/05/01 18:27:11 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 30 ramp-up 15 perThread 500.0 delayedStart=false 
+2016/05/01 18:27:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2016/05/01 18:27:11 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/05/01 18:27:11 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/05/01 18:27:11 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2016/05/01 18:27:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2016/05/01 18:27:12 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2016/05/01 18:27:13 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2016/05/01 18:27:13 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2016/05/01 18:27:14 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2016/05/01 18:27:14 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2016/05/01 18:27:15 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2016/05/01 18:27:15 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2016/05/01 18:27:16 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2016/05/01 18:27:16 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2016/05/01 18:27:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-13 
+2016/05/01 18:27:17 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-14 
+2016/05/01 18:27:18 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-15 
+2016/05/01 18:27:18 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-16 
+2016/05/01 18:27:19 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-17 
+2016/05/01 18:27:19 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-18 
+2016/05/01 18:27:20 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-19 
+2016/05/01 18:27:20 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-20 
+2016/05/01 18:27:21 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-21 
+2016/05/01 18:27:21 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-22 
+2016/05/01 18:27:22 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-23 
+2016/05/01 18:27:22 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-24 
+2016/05/01 18:27:23 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-25 
+2016/05/01 18:27:23 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-26 
+2016/05/01 18:27:24 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-27 
+2016/05/01 18:27:24 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-28 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-29 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-30 
+2016/05/01 18:27:25 INFO  - jmeter.gui.action.Start: Stopping test 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-19 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-19 sampler: Download 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-21 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-21 sampler: Login 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-5 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-5 sampler: Login 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-12 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-19 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-21 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-12 sampler: Download 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-25 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-25 sampler: Download 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-18 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-18 sampler: Download 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-12 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-18 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-25 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-24 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-24 sampler: Login 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-10 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-10 sampler: Checkout 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-23 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-23 sampler: Checkout 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-24 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-6 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-6 sampler: Checkout 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-22 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-22 sampler: Download 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-8 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-23 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-8 sampler: Login 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-22 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-15 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-15 sampler: Download 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-15 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-16 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-16 sampler: Login 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-17 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-17 sampler: Download 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-30 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-30 sampler: Login 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-20 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-20 sampler: Login 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-3 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-3 sampler: Login 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-17 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-30 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-16 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-20 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-7 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-7 sampler: Checkout 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-26 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-26 sampler: Login 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-26 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-9 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-9 sampler: arbitrary2 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-28 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-28 sampler: Login 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-11 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-11 sampler: arbitrary1 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-1 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-1 sampler: Download 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-14 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-14 sampler: Download 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-4 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-4 sampler: Download 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-29 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-29 sampler: Download 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-13 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-13 sampler: Download 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-2 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-2 sampler: Download 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-27 
+2016/05/01 18:27:25 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-27 sampler: Checkout 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-28 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-11 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-14 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-29 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-27 
+2016/05/01 18:27:25 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-13 
+2016/05/01 18:27:25 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/05/01 18:27:25 INFO  - jmeter.reporters.ResultCollector: forced flush through ResultCollecto#flushFile 
+2016/05/01 18:27:25 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Successfully flushed results file 
+2016/05/01 18:27:25 INFO  - org.loadosophia.jmeter.LoadosophiaAPIClient: Preparing files to send 
+2016/05/01 18:27:25 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Gzipping /tmp/Sense_581931075236011855.jtl 
+2016/05/01 18:27:25 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Starting upload to BM.Sense 
+2016/05/01 18:27:26 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Saving server error response to: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/error_1691597313696556589.html 
+2016/05/01 18:27:26 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Failed to upload results to BM.Sense, see log for detais: Request returned not 200 status code: 403 
+2016/05/01 18:27:26 ERROR - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to upload results to BM.Sense org.apache.commons.httpclient.HttpException: Request returned not 200 status code: 403
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:206)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendFiles(LoadosophiaAPIClient.java:76)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.stop(LoadosophiaConsolidator.java:119)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.remove(LoadosophiaConsolidator.java:80)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:47)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:33)
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:226)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:448)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/01 18:27:26 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/05/01 18:27:27 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/05/01 18:27:27 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/05/01 18:27:27 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Storing results for upload to Sense: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/Sense_4178077724706908568.jtl 
+2016/05/01 18:27:27 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Starting BM.Sense online test 
+2016/05/01 18:27:27 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Saving server error response to: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/error_3581689858103987719.html 
+2016/05/01 18:27:27 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Failed to start active test 
+2016/05/01 18:27:27 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to initiate active test org.apache.commons.httpclient.HttpException: Request returned not 201 status code: 403
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:206)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.startOnline(LoadosophiaAPIClient.java:105)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.initiateOnline(LoadosophiaConsolidator.java:242)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.start(LoadosophiaConsolidator.java:98)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.add(LoadosophiaConsolidator.java:61)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testStarted(LoadosophiaUploader.java:42)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testStarted(LoadosophiaUploader.java:28)
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfStart(StandardJMeterEngine.java:214)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:336)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/01 18:27:27 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/05/01 18:27:27 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2016/05/01 18:27:27 INFO  - jmeter.engine.StandardJMeterEngine: Starting 30 threads for group Thread Group. 
+2016/05/01 18:27:27 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/05/01 18:27:27 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 30 ramp-up 15 perThread 500.0 delayedStart=false 
+2016/05/01 18:27:27 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2016/05/01 18:27:27 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/05/01 18:27:27 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/05/01 18:27:28 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2016/05/01 18:27:28 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2016/05/01 18:27:29 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2016/05/01 18:27:29 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2016/05/01 18:27:30 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2016/05/01 18:27:30 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2016/05/01 18:27:31 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2016/05/01 18:27:31 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2016/05/01 18:27:32 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2016/05/01 18:27:32 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2016/05/01 18:27:33 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2016/05/01 18:27:33 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-13 
+2016/05/01 18:27:34 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-14 
+2016/05/01 18:27:34 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-15 
+2016/05/01 18:27:35 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-16 
+2016/05/01 18:27:35 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-17 
+2016/05/01 18:27:36 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-18 
+2016/05/01 18:27:36 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-19 
+2016/05/01 18:27:37 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-20 
+2016/05/01 18:27:37 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-21 
+2016/05/01 18:27:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-22 
+2016/05/01 18:27:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-23 
+2016/05/01 18:27:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-24 
+2016/05/01 18:27:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-25 
+2016/05/01 18:27:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-26 
+2016/05/01 18:27:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-27 
+2016/05/01 18:27:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-28 
+2016/05/01 18:27:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-29 
+2016/05/01 18:27:42 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-30 
+2016/05/01 18:28:29 INFO  - jmeter.gui.action.Start: Stopping test 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-7 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-7 sampler: arbitrary2 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-15 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-15 sampler: Download 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-30 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-30 sampler: Download 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-23 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-23 sampler: Checkout 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-15 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-19 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-30 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-23 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-19 sampler: Login 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-16 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-16 sampler: Login 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-5 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-5 sampler: Download 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-19 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-16 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-20 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-20 sampler: Download 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-1 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-1 sampler: Login 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-11 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-11 sampler: Login 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-21 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-20 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-21 sampler: Download 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-22 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-22 sampler: Login 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-27 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-27 sampler: Checkout 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-14 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-14 sampler: Login 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-11 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-27 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-22 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-13 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-13 sampler: Checkout 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-9 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-9 sampler: Login 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-24 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-24 sampler: Download 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-3 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-21 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-13 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-24 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-3 sampler: Checkout 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-10 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-10 sampler: Checkout 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-26 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-26 sampler: Login 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-28 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-28 sampler: Download 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-4 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-4 sampler: Download 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-18 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-18 sampler: Login 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-6 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-6 sampler: Download 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-25 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-25 sampler: Login 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-2 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-2 sampler: Login 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-29 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-29 sampler: Login 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-17 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-17 sampler: Download 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-8 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-8 sampler: Checkout 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-12 
+2016/05/01 18:28:29 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-12 sampler: Download 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-14 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-28 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-26 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-18 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-25 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-29 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-17 
+2016/05/01 18:28:29 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-12 
+2016/05/01 18:28:29 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/05/01 18:28:29 INFO  - jmeter.reporters.ResultCollector: forced flush through ResultCollecto#flushFile 
+2016/05/01 18:28:29 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Successfully flushed results file 
+2016/05/01 18:28:29 INFO  - org.loadosophia.jmeter.LoadosophiaAPIClient: Preparing files to send 
+2016/05/01 18:28:29 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Gzipping /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/Sense_4178077724706908568.jtl 
+2016/05/01 18:28:29 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Starting upload to BM.Sense 
+2016/05/01 18:28:30 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Saving server error response to: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/error_7294961720046854230.html 
+2016/05/01 18:28:30 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Failed to upload results to BM.Sense, see log for detais: Request returned not 200 status code: 403 
+2016/05/01 18:28:30 ERROR - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to upload results to BM.Sense org.apache.commons.httpclient.HttpException: Request returned not 200 status code: 403
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:206)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendFiles(LoadosophiaAPIClient.java:76)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.stop(LoadosophiaConsolidator.java:119)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.remove(LoadosophiaConsolidator.java:80)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:47)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:33)
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:226)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:448)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/01 18:28:30 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/05/01 18:28:34 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/05/01 18:28:34 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/05/01 18:28:34 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Storing results for upload to Sense: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/Sense_4083737012478066691.jtl 
+2016/05/01 18:28:34 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/05/01 18:28:34 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2016/05/01 18:28:34 INFO  - jmeter.engine.StandardJMeterEngine: Starting 30 threads for group Thread Group. 
+2016/05/01 18:28:34 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/05/01 18:28:34 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 30 ramp-up 15 perThread 500.0 delayedStart=false 
+2016/05/01 18:28:34 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2016/05/01 18:28:34 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/05/01 18:28:34 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/05/01 18:28:35 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2016/05/01 18:28:35 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2016/05/01 18:28:36 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2016/05/01 18:28:36 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2016/05/01 18:28:37 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2016/05/01 18:28:37 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2016/05/01 18:28:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2016/05/01 18:28:38 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2016/05/01 18:28:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2016/05/01 18:28:39 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2016/05/01 18:28:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2016/05/01 18:28:40 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-13 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-14 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-15 
+2016/05/01 18:28:41 INFO  - jmeter.gui.action.Start: Stopping test 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-19 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-17 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-28 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-20 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-19 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-17 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-28 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-19 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-5 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-20 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-28 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-20 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-17 
+2016/05/01 18:28:41 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-5 sampler: Checkout 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-18 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-24 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-25 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-26 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-18 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-30 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-18 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-7 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-24 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-25 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-24 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-26 
+2016/05/01 18:28:41 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-7 sampler: Download 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-9 
+2016/05/01 18:28:41 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-9 sampler: Download 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-15 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-26 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-25 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2016/05/01 18:28:41 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-15 sampler: Download 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-30 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-30 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-29 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-15 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-29 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-29 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-23 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-6 
+2016/05/01 18:28:41 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-6 sampler: Download 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-22 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-14 
+2016/05/01 18:28:41 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-14 sampler: arbitrary1 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-3 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-22 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-22 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-23 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-23 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-14 
+2016/05/01 18:28:41 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-3 sampler: Download 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-21 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-12 
+2016/05/01 18:28:41 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-12 sampler: Login 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-27 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-1 
+2016/05/01 18:28:41 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-1 sampler: Checkout 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-2 
+2016/05/01 18:28:41 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-2 sampler: Login 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-16 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-13 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2016/05/01 18:28:41 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-13 sampler: Download 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-8 
+2016/05/01 18:28:41 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-8 sampler: Download 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-11 
+2016/05/01 18:28:41 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-11 sampler: arbitrary1 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-10 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-27 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-27 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-21 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-21 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-13 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-16 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-16 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-12 
+2016/05/01 18:28:41 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-10 sampler: Login 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-4 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-11 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2016/05/01 18:28:41 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-4 sampler: Login 
+2016/05/01 18:28:41 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2016/05/01 18:28:41 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/05/01 18:28:41 INFO  - jmeter.reporters.ResultCollector: forced flush through ResultCollecto#flushFile 
+2016/05/01 18:28:41 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Successfully flushed results file 
+2016/05/01 18:28:41 INFO  - org.loadosophia.jmeter.LoadosophiaAPIClient: Preparing files to send 
+2016/05/01 18:28:41 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Gzipping /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/Sense_4083737012478066691.jtl 
+2016/05/01 18:28:41 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Starting upload to BM.Sense 
+2016/05/01 18:28:42 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Saving server error response to: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/error_5871269492392194229.html 
+2016/05/01 18:28:42 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Failed to upload results to BM.Sense, see log for detais: Request returned not 200 status code: 403 
+2016/05/01 18:28:42 ERROR - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to upload results to BM.Sense org.apache.commons.httpclient.HttpException: Request returned not 200 status code: 403
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:206)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendFiles(LoadosophiaAPIClient.java:76)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.stop(LoadosophiaConsolidator.java:119)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.remove(LoadosophiaConsolidator.java:80)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:47)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:33)
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:226)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:448)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/01 18:28:42 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/05/01 18:28:44 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/05/01 18:28:44 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/05/01 18:28:44 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Storing results for upload to Sense: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/Sense_1414938720081975174.jtl 
+2016/05/01 18:28:44 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/05/01 18:28:44 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2016/05/01 18:28:44 INFO  - jmeter.engine.StandardJMeterEngine: Starting 30 threads for group Thread Group. 
+2016/05/01 18:28:44 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/05/01 18:28:44 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 30 ramp-up 15 perThread 500.0 delayedStart=false 
+2016/05/01 18:28:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2016/05/01 18:28:44 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/05/01 18:28:44 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/05/01 18:28:44 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2016/05/01 18:28:45 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2016/05/01 18:28:45 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2016/05/01 18:28:46 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2016/05/01 18:28:46 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2016/05/01 18:28:47 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2016/05/01 18:28:47 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2016/05/01 18:28:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2016/05/01 18:28:48 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2016/05/01 18:28:49 INFO  - jmeter.gui.action.Start: Stopping test 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-28 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-21 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-29 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-5 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-28 
+2016/05/01 18:28:49 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-5 sampler: Download 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-22 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-28 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-26 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-9 
+2016/05/01 18:28:49 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-9 sampler: Download 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-20 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-14 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-24 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-21 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-26 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-22 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-21 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-20 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-22 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-14 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-29 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-14 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-29 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-3 
+2016/05/01 18:28:49 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-3 sampler: Login 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-23 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-13 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-24 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-16 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-24 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-19 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-12 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-18 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-11 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-30 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-25 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-17 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-10 
+2016/05/01 18:28:49 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-10 sampler: Download 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-27 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-1 
+2016/05/01 18:28:49 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-1 sampler: Login 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-2 
+2016/05/01 18:28:49 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-2 sampler: Checkout 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-7 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-13 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-20 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-13 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-16 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-16 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-19 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-19 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-12 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-18 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-18 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-11 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-30 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-25 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-25 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-27 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-27 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-26 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-17 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-30 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-17 
+2016/05/01 18:28:49 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-7 sampler: Checkout 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-15 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-8 
+2016/05/01 18:28:49 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-8 sampler: Login 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-23 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-4 
+2016/05/01 18:28:49 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-4 sampler: Login 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-15 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-15 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-6 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-23 
+2016/05/01 18:28:49 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-6 sampler: Checkout 
+2016/05/01 18:28:49 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2016/05/01 18:28:49 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/05/01 18:28:49 INFO  - jmeter.reporters.ResultCollector: forced flush through ResultCollecto#flushFile 
+2016/05/01 18:28:49 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Successfully flushed results file 
+2016/05/01 18:28:49 INFO  - org.loadosophia.jmeter.LoadosophiaAPIClient: Preparing files to send 
+2016/05/01 18:28:49 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Gzipping /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/Sense_1414938720081975174.jtl 
+2016/05/01 18:28:49 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Starting upload to BM.Sense 
+2016/05/01 18:28:49 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Saving server error response to: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/error_3836959730541307300.html 
+2016/05/01 18:28:49 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Failed to upload results to BM.Sense, see log for detais: Request returned not 200 status code: 403 
+2016/05/01 18:28:49 ERROR - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to upload results to BM.Sense org.apache.commons.httpclient.HttpException: Request returned not 200 status code: 403
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:206)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendFiles(LoadosophiaAPIClient.java:76)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.stop(LoadosophiaConsolidator.java:119)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.remove(LoadosophiaConsolidator.java:80)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:47)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:33)
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:226)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:448)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/01 18:28:49 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/05/01 18:28:56 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/05/01 18:28:56 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/05/01 18:28:56 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Storing results for upload to Sense: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/Sense_4306819176917899823.jtl 
+2016/05/01 18:28:56 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/05/01 18:28:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group 
+2016/05/01 18:28:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting 30 threads for group Thread Group. 
+2016/05/01 18:28:56 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/05/01 18:28:56 INFO  - jmeter.threads.ThreadGroup: Starting thread group number 1 threads 30 ramp-up 15 perThread 500.0 delayedStart=false 
+2016/05/01 18:28:56 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-1 
+2016/05/01 18:28:56 INFO  - jmeter.threads.ThreadGroup: Started thread group number 1 
+2016/05/01 18:28:56 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/05/01 18:28:56 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-2 
+2016/05/01 18:28:57 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-3 
+2016/05/01 18:28:57 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-4 
+2016/05/01 18:28:58 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-5 
+2016/05/01 18:28:58 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-6 
+2016/05/01 18:28:59 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-7 
+2016/05/01 18:28:59 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-8 
+2016/05/01 18:29:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-9 
+2016/05/01 18:29:00 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-10 
+2016/05/01 18:29:01 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-11 
+2016/05/01 18:29:01 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-12 
+2016/05/01 18:29:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-13 
+2016/05/01 18:29:02 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-14 
+2016/05/01 18:29:03 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-15 
+2016/05/01 18:29:03 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-16 
+2016/05/01 18:29:04 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-17 
+2016/05/01 18:29:04 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-18 
+2016/05/01 18:29:05 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-19 
+2016/05/01 18:29:05 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-20 
+2016/05/01 18:29:06 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-21 
+2016/05/01 18:29:06 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-22 
+2016/05/01 18:29:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-23 
+2016/05/01 18:29:07 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-24 
+2016/05/01 18:29:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-25 
+2016/05/01 18:29:08 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-26 
+2016/05/01 18:29:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-27 
+2016/05/01 18:29:09 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-28 
+2016/05/01 18:29:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-29 
+2016/05/01 18:29:10 INFO  - jmeter.threads.JMeterThread: Thread started: Thread Group 1-30 
+2016/05/01 18:30:31 INFO  - jmeter.gui.action.Load: Loading file: /Users/alongir/jmx/rc_dyn_1m_gen2.jmx 
+2016/05/01 18:30:31 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/jmx' 
+2016/05/01 18:30:31 INFO  - jmeter.save.SaveService: Loading file: /Users/alongir/jmx/rc_dyn_1m_gen2.jmx 
+2016/05/01 18:30:31 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/jmx' 
+2016/05/01 18:33:50 INFO  - jmeter.gui.action.Start: Stopping test 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-8 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-8 sampler: Download 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-16 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-16 sampler: Checkout 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-27 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-27 sampler: Download 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-10 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-8 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-27 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-10 sampler: arbitrary2 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-9 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-9 sampler: Download 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-2 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-2 sampler: Checkout 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-10 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-16 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-9 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-2 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-17 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-17 sampler: Login 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-19 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-19 sampler: Download 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-6 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-6 sampler: Download 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-29 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-29 sampler: arbitrary2 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-17 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-6 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-5 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-5 sampler: Login 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-21 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-21 sampler: Checkout 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-22 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-22 sampler: Login 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-19 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-7 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-7 sampler: Download 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-14 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-14 sampler: Login 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-11 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-11 sampler: Download 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-18 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-18 sampler: Download 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-30 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-30 sampler: Login 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-21 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-5 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-22 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-29 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-7 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-14 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-11 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-18 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-4 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-30 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-4 sampler: Checkout 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-13 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-13 sampler: Download 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-25 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-25 sampler: Download 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-4 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-13 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-15 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-15 sampler: Download 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-23 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-23 sampler: Login 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-25 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-23 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-20 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-15 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-20 sampler: Login 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-26 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-26 sampler: Login 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-24 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-24 sampler: Download 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-20 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-26 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-24 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-12 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-12 sampler: Download 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-3 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-3 sampler: Login 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-1 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-1 sampler: Login 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-12 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-3 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Stopping: Thread Group 1-28 
+2016/05/01 18:33:50 WARN  - jmeter.threads.JMeterThread: Interrupting: Thread Group 1-28 sampler: Checkout 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-1 
+2016/05/01 18:33:50 INFO  - jmeter.threads.JMeterThread: Thread finished: Thread Group 1-28 
+2016/05/01 18:33:50 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/05/01 18:33:50 INFO  - jmeter.reporters.ResultCollector: forced flush through ResultCollecto#flushFile 
+2016/05/01 18:33:50 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Successfully flushed results file 
+2016/05/01 18:33:50 INFO  - org.loadosophia.jmeter.LoadosophiaAPIClient: Preparing files to send 
+2016/05/01 18:33:50 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Gzipping /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/Sense_4306819176917899823.jtl 
+2016/05/01 18:33:50 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Starting upload to BM.Sense 
+2016/05/01 18:33:52 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Saving server error response to: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/error_1693642529750158041.html 
+2016/05/01 18:33:52 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Failed to upload results to BM.Sense, see log for detais: Request returned not 200 status code: 403 
+2016/05/01 18:33:52 ERROR - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to upload results to BM.Sense org.apache.commons.httpclient.HttpException: Request returned not 200 status code: 403
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:206)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendFiles(LoadosophiaAPIClient.java:76)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.stop(LoadosophiaConsolidator.java:119)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.remove(LoadosophiaConsolidator.java:80)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:47)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:33)
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:226)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:448)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/01 18:33:52 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/05/01 18:33:56 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/05/01 18:33:56 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/05/01 18:33:56 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Storing results for upload to Sense: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/Sense_3281469185951815898.jtl 
+2016/05/01 18:33:56 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Starting BM.Sense online test 
+2016/05/01 18:33:56 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Started active test: https://sense.blazemeter.com/gui/active/237586ee/ 
+2016/05/01 18:33:56 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/05/01 18:33:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Concurrency Thread Group 
+2016/05/01 18:33:56 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1000 threads for group bzm - Concurrency Thread Group. 
+2016/05/01 18:33:56 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/05/01 18:33:56 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/05/01 18:33:56 INFO  - com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadStarter: Start supplying threads 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-1 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-2 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-3 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-4 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-5 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-6 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-7 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-8 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-9 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-10 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-11 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-12 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-13 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-14 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-15 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-16 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-17 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-18 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-19 
+2016/05/01 18:33:56 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-20 
+2016/05/01 18:35:07 INFO  - jmeter.gui.action.Start: Stopping test 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-2 
+2016/05/01 18:35:07 INFO  - com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadStarter: Done supplying threads 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-2 sampler: Login 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-19 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-19 sampler: Download 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-5 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-16 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-16 sampler: arbitrary2 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-11 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-11 sampler: arbitrary1 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-13 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-13 sampler: Login 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-18 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-18 sampler: Login 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-4 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-4 sampler: Checkout 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-8 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-15 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-15 sampler: Checkout 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-10 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-20 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-20 sampler: Download 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-12 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-12 sampler: Checkout 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-6 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-6 sampler: Download 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-9 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-9 sampler: Login 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-14 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-14 sampler: arbitrary1 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-1 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-1 sampler: Download 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-17 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-17 sampler: Download 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-3 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-3 sampler: Login 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-7 
+2016/05/01 18:35:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-7 sampler: Login 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-5 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-5 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-10 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-8 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-8 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-10 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-12 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-15 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-15 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-12 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-2 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-2 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-7 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-7 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-4 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-4 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-3 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-3 
+2016/05/01 18:35:07 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-16 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-16 
+2016/05/01 18:35:07 INFO  - jmeter.reporters.ResultCollector: forced flush through ResultCollecto#flushFile 
+2016/05/01 18:35:07 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Successfully flushed results file 
+2016/05/01 18:35:07 INFO  - org.loadosophia.jmeter.LoadosophiaAPIClient: Preparing files to send 
+2016/05/01 18:35:07 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Gzipping /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/Sense_3281469185951815898.jtl 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-14 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-14 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-20 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-20 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-1 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-1 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-9 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-9 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-13 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-13 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-6 
+2016/05/01 18:35:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-6 
+2016/05/01 18:35:07 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Starting upload to BM.Sense 
+2016/05/01 18:35:07 WARN  - org.apache.commons.httpclient.SimpleHttpConnectionManager: SimpleHttpConnectionManager being used incorrectly.  Be sure that HttpMethod.releaseConnection() is always called and that only one thread and/or method is using this connection manager at a time. 
+2016/05/01 18:35:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-11 
+2016/05/01 18:35:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-19 
+2016/05/01 18:35:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-11 
+2016/05/01 18:35:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-19 
+2016/05/01 18:35:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-18 
+2016/05/01 18:35:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-17 
+2016/05/01 18:35:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-18 
+2016/05/01 18:35:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-17 
+2016/05/01 18:35:08 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data org.apache.commons.httpclient.ProtocolException: Unable to parse header: .4.1
+	at org.apache.commons.httpclient.HttpParser.parseHeaders(HttpParser.java:202)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponseHeaders(HttpMethodBase.java:1935)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1737)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:198)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendOnlineData(LoadosophiaAPIClient.java:116)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.run(LoadosophiaConsolidator.java:226)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/01 18:35:08 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Saving server error response to: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/error_3884444650923377749.html 
+2016/05/01 18:35:08 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Failed to upload results to BM.Sense, see log for detais: Request returned not 200 status code: 400 
+2016/05/01 18:35:08 ERROR - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to upload results to BM.Sense org.apache.commons.httpclient.HttpException: Request returned not 200 status code: 400
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:206)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendFiles(LoadosophiaAPIClient.java:76)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.stop(LoadosophiaConsolidator.java:119)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.remove(LoadosophiaConsolidator.java:80)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:47)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:33)
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:226)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:448)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/01 18:35:08 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Ending BM.Sense online test 
+2016/05/01 18:35:08 WARN  - org.apache.commons.httpclient.SimpleHttpConnectionManager: SimpleHttpConnectionManager being used incorrectly.  Be sure that HttpMethod.releaseConnection() is always called and that only one thread and/or method is using this connection manager at a time. 
+2016/05/01 18:35:08 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to finalize active test org.apache.commons.httpclient.ProtocolException: Unable to parse header: acheCnrno-sto, nochemus-rvaiae,pohek0 pe-e=0
+	at org.apache.commons.httpclient.HttpParser.parseHeaders(HttpParser.java:202)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponseHeaders(HttpMethodBase.java:1935)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1737)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:198)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.endOnline(LoadosophiaAPIClient.java:123)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.finishOnline(LoadosophiaConsolidator.java:270)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.stop(LoadosophiaConsolidator.java:129)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.remove(LoadosophiaConsolidator.java:80)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:47)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:33)
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:226)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:448)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/01 18:35:08 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/05/01 18:35:08 ERROR - jmeter.JMeter: Uncaught exception:  java.lang.IllegalStateException: Connection is not open
+	at org.apache.commons.httpclient.HttpConnection.assertOpen(HttpConnection.java:1277)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1115)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:198)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendOnlineData(LoadosophiaAPIClient.java:116)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.run(LoadosophiaConsolidator.java:226)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/01 18:39:11 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/05/01 18:39:11 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/05/01 18:39:11 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Storing results for upload to Sense: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/Sense_4149495806000799820.jtl 
+2016/05/01 18:39:11 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Starting BM.Sense online test 
+2016/05/01 18:39:12 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Started active test: https://sense.blazemeter.com/gui/active/b85977b4/ 
+2016/05/01 18:39:12 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/05/01 18:39:13 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Concurrency Thread Group 
+2016/05/01 18:39:13 INFO  - jmeter.engine.StandardJMeterEngine: Starting 1000 threads for group bzm - Concurrency Thread Group. 
+2016/05/01 18:39:13 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/05/01 18:39:13 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/05/01 18:39:13 INFO  - com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadStarter: Start supplying threads 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-1 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-2 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-3 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-4 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-5 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-6 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-7 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-8 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-9 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-10 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-11 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-12 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-13 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-14 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-15 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-16 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-17 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-18 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-19 
+2016/05/01 18:39:13 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-20 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-21 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-22 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-23 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-24 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-25 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-26 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-27 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-28 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-29 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-30 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-31 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-32 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-33 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-34 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-35 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-36 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-37 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-38 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-39 
+2016/05/01 18:40:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-40 
+2016/05/01 18:40:59 INFO  - jmeter.gui.action.Start: Stopping test 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-25 
+2016/05/01 18:40:59 INFO  - com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadStarter: Done supplying threads 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-25 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-2 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-2 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-31 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-12 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-12 sampler: Download 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-9 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-9 sampler: arbitrary2 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-4 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-4 sampler: arbitrary2 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-5 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-5 sampler: Download 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-20 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-20 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-36 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-3 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-3 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-8 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-8 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-13 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-13 sampler: Download 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-14 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-14 sampler: arbitrary2 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-26 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-26 sampler: Checkout 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-22 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-22 sampler: arbitrary1 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-24 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-24 sampler: Checkout 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-1 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-1 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-39 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-15 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-15 sampler: Checkout 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-23 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-23 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-32 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-32 sampler: Download 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-27 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-27 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-21 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-33 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-19 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-19 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-17 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-17 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-11 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-11 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-29 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-29 sampler: arbitrary1 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-40 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-40 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-18 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-18 sampler: arbitrary1 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-38 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-38 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-7 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-7 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-37 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-37 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-34 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-34 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-10 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-10 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-35 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-35 sampler: Download 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-16 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-16 sampler: Login 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-6 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-6 sampler: Checkout 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-28 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-28 sampler: Download 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-30 
+2016/05/01 18:40:59 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-30 sampler: Download 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-36 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-33 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-36 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-39 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-21 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-33 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-31 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-31 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-21 
+2016/05/01 18:40:59 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-39 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-34 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-7 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-34 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-7 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-15 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-15 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-27 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-27 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-32 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-32 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-11 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-11 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-17 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-40 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-17 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-40 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-8 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-20 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-12 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-8 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-20 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-12 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-38 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-38 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-25 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-25 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-19 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-19 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-30 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-30 
+2016/05/01 18:41:00 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/05/01 18:41:00 INFO  - jmeter.reporters.ResultCollector: forced flush through ResultCollecto#flushFile 
+2016/05/01 18:41:00 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Successfully flushed results file 
+2016/05/01 18:41:00 INFO  - org.loadosophia.jmeter.LoadosophiaAPIClient: Preparing files to send 
+2016/05/01 18:41:00 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Gzipping /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/Sense_4149495806000799820.jtl 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-16 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-16 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-23 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-23 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-2 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-2 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-3 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-3 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-35 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-35 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-6 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-6 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-29 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-29 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-24 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-24 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-26 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-26 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-5 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-5 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-37 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-37 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-22 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-22 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-28 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-28 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-1 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-1 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-9 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-9 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-13 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-13 
+2016/05/01 18:41:00 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Starting upload to BM.Sense 
+2016/05/01 18:41:00 WARN  - org.apache.commons.httpclient.SimpleHttpConnectionManager: SimpleHttpConnectionManager being used incorrectly.  Be sure that HttpMethod.releaseConnection() is always called and that only one thread and/or method is using this connection manager at a time. 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-10 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-18 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-10 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-18 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-14 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-14 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-4 
+2016/05/01 18:41:00 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-4 
+2016/05/01 18:41:06 WARN  - jmeter.engine.StandardJMeterEngine: Error encountered during shutdown of kg.apc.jmeter.reporters.LoadosophiaUploader@548f1b47 java.lang.NullPointerException
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1792)
+	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1769)
+	at org.apache.commons.io.IOUtils.copy(IOUtils.java:1744)
+	at org.apache.commons.io.IOUtils.toByteArray(IOUtils.java:462)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:208)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.setTestTitle(LoadosophiaAPIClient.java:174)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendFiles(LoadosophiaAPIClient.java:85)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.stop(LoadosophiaConsolidator.java:119)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.remove(LoadosophiaConsolidator.java:80)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:47)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:33)
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:226)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:448)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/01 18:41:06 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 

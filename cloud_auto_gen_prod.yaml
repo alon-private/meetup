@@ -3,7 +3,7 @@ modules:
   cloud:
     token: 6505dd904170db7a7d08
     timeout: 5000
-    test: TT3
+    test: Brooklyn Continuous Testing Demo
   blazemeter:
     token: 6505dd904170db7a7d08
     browser-open: none
@@ -13,6 +13,6 @@ reporting:
     filename: junit.xml
     data-source: pass-fail
   - module: blazemeter
-    report-name: Jenkins Build 1
-    test: Taurus Demo
-    project: Taurus Tests Group
+    report-name: Brooklyn Continuous Testing Demo
+    test: Brooklyn Test
+    project: Brooklyn

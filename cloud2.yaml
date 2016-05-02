@@ -17,7 +17,7 @@ modules:
   cloud:
     token: 6505dd904170db7a7d08
     timeout: 5
-    test: TT3
+    test: Brooklyn Continuous Testing Demo
   blazemeter:
     token: 6505dd904170db7a7d08
     browser-open: none
@@ -32,9 +32,9 @@ reporting:
       - avg-rt of home>4000ms for 10s, stop as failed
       - avg-rt of reserve>3000ms for 10s, continue as failed
   - module: blazemeter
-    report-name: Jenkins Build 1
-    test: Taurus Demo
-    project: Taurus Tests Group
+    report-name: Brooklyn Continuous Testing Demo
+    test: Brooklyn Test
+    project: Brooklyn
 
 
 
