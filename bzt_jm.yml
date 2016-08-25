@@ -1,0 +1,17 @@
+---
+execution:
+- executor: jmeter
+  scenario: simple_usage
+  concurrency: 1000
+  hold-for: 3m
+  ramp-up: 1m
+  throughput: 10000
+  timeout: 10s
+scenarios:
+  simple_usage:
+    store-cache: false
+    store-cookie: false
+    retrieve-resources: false
+    default-address: http://blazedemo.com/
+    requests:
+    - /

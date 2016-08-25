@@ -1,0 +1,46 @@
+---
+scenarios:
+- rc_dyn_scen1:
+    properties:
+        my-hostname: www.prod.com
+        log_level.jmeter: DEBUG
+    script: rc_dyn_1m.jmx
+- rc_dyn_scen2:
+    properties:
+        my-hostname: www.proddev.com
+        log_level.jmeter: DEBUG
+    script: rc_dyn_2m.jmx
+
+
+execution:
+- scenario: rc_dyn_scen1
+  concurrency:
+      local: 10
+      cloud: 5000
+  locations:
+      us-west-1: 1             # AWS US W
+      us-east-1: 1             # AWS US E
+      us-central1-a: 1         # GCE US C
+      us-west-2: 1
+#      europe-west1-b: 1        # GCE EU W
+  locations-weighted: true
+  ramp-up: 30s
+  hold-for: 1m
+- scenario: rc_dyn_scen2
+  concurrency:
+      local: 10
+      cloud: 5000
+  locations:
+      us-west-1: 1             # AWS US W
+      us-east-1: 1             # AWS US E
+      us-central1-a: 1         # GCE US C
+      us-west-2: 1
+#      europe-west1-b: 1        # GCE EU W
+  locations-weighted: true
+  ramp-up: 30s
+  hold-for: 1m
+
+
+
+
+

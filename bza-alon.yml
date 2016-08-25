@@ -2,8 +2,11 @@
 modules:
   blazemeter:
     token:        6505dd904170db7a7d08
-    timeout:      500
+    timeout:      50s
     browser-open: none
 reporting:
   - module:       blazemeter
     test:         Taurus Demo
+cli-aliases:
+  cloud:
+    provisioning: cloud

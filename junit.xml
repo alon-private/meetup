@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuite name="bzt_pass_fail" package="bzt">
-  <testcase classname="TT3" name="avg-rt of home&gt;4000ms for 10s">
-    <system-out>Cloud report link: https://a.blazemeter.com/app/#reports/15375270
+  <testcase classname="Brooklyn Continuous Testing Demo" name="avg-rt of home&gt;4000ms for 10s">
+    <system-out>Cloud report link: https://a.blazemeter.com/app/#reports/15429245
 </system-out>
   </testcase>
-  <testcase classname="TT3" name="avg-rt of reserve&gt;3000ms for 10s">
-    <system-out>Cloud report link: https://a.blazemeter.com/app/#reports/15375270
+  <testcase classname="Brooklyn Continuous Testing Demo" name="avg-rt of reserve&gt;3000ms for 10s">
+    <system-out>Cloud report link: https://a.blazemeter.com/app/#reports/15429245
 </system-out>
   </testcase>
 </testsuite>

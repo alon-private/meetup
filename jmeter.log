@@ -1,103 +1,392 @@
-2016/05/02 08:43:09 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: Loading user properties from: /Users/alongir/.bzt/jmeter-taurus/bin/user.properties 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: Loading system properties from: /Users/alongir/.bzt/jmeter-taurus/bin/system.properties 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: Copyright (c) 1998-2015 The Apache Software Foundation 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: Version 2.13 r1665067 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: java.version=1.8.0_77 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: os.name=Mac OS X 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: os.arch=x86_64 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: os.version=10.11.3 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: file.encoding=UTF-8 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: Default Locale=English (United States) 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: JMeterHome=/Users/alongir/.bzt/jmeter-taurus 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: user.dir  =/Users/alongir/PhpstormProjects/meetup-taurus040616 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: PWD       =/Users/alongir/PhpstormProjects/meetup-taurus040616 
-2016/05/02 08:43:09 INFO  - jmeter.JMeter: IP: 192.168.128.56 Name: Alons-MacBook-Pro.local FullName: 192.168.128.56 
-2016/05/02 08:43:10 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System] 
-2016/05/02 08:43:10 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
-2016/05/02 08:43:12 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
-2016/05/02 08:43:12 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
-2016/05/02 08:43:14 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
-2016/05/02 08:43:14 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
-2016/05/02 08:43:14 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
-2016/05/02 08:43:14 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
-2016/05/02 08:43:14 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
-2016/05/02 08:43:14 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
-2016/05/02 08:43:14 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
-2016/05/02 08:43:14 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.control.gui.WebServiceSamplerGui 
-2016/05/02 08:43:14 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.modifier.gui.ParamModifierGui 
-2016/05/02 08:43:15 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
-2016/05/02 08:43:15 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/alongir/.bzt/jmeter-taurus/bin/proxyserver.jks 
-2016/05/02 08:43:15 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
-2016/05/02 08:43:15 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
-2016/05/02 08:43:15 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
-2016/05/02 08:43:15 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
-2016/05/02 08:43:17 INFO  - jmeter.services.FileServer: Default base='/Users/alongir/PhpstormProjects/meetup-taurus040616' 
-2016/05/02 08:43:17 INFO  - jmeter.gui.action.Load: Loading file: /Users/alongir/jmx/rc_dyn_1m_gen2.jmx 
-2016/05/02 08:43:17 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/jmx' 
-2016/05/02 08:43:17 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
-2016/05/02 08:43:17 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
-2016/05/02 08:43:17 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1656252 
-2016/05/02 08:43:17 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.8 
-2016/05/02 08:43:17 INFO  - jmeter.save.SaveService: All converter versions present and correct 
-2016/05/02 08:43:17 INFO  - jmeter.save.SaveService: Loading file: /Users/alongir/jmx/rc_dyn_1m_gen2.jmx 
-2016/05/02 08:43:18 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/jmx' 
-2016/05/02 08:43:26 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
-2016/05/02 08:43:26 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
-2016/05/02 08:43:26 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
-2016/05/02 08:43:26 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2016/05/02 08:43:26 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
-2016/05/02 08:43:26 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Storing results for upload to Sense: /tmp/Sense_7784399312698587624.jtl 
-2016/05/02 08:43:26 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Starting BM.Sense online test 
-2016/05/02 08:43:28 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Started active test: https://sense.blazemeter.com/gui/active/635eaf27/ 
-2016/05/02 08:43:28 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
-2016/05/02 08:43:28 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Concurrency Thread Group 
-2016/05/02 08:43:28 INFO  - jmeter.engine.StandardJMeterEngine: Starting 100 threads for group bzm - Concurrency Thread Group. 
-2016/05/02 08:43:28 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
-2016/05/02 08:43:28 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
-2016/05/02 08:43:28 INFO  - com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadStarter: Start supplying threads 
-2016/05/02 08:43:28 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
-2016/05/02 08:43:28 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
-2016/05/02 08:43:28 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-1 
-2016/05/02 08:43:28 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-2 
-2016/05/02 08:44:40 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-3 
-2016/05/02 08:44:40 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-4 
-2016/05/02 08:45:52 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-5 
-2016/05/02 08:45:52 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-6 
-2016/05/02 08:47:04 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-7 
-2016/05/02 08:47:04 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-8 
-2016/05/02 08:48:16 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-9 
-2016/05/02 08:48:16 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-10 
-2016/05/02 08:49:29 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-11 
-2016/05/02 08:49:29 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-12 
-2016/05/02 08:50:40 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-13 
-2016/05/02 08:50:40 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-14 
-2016/05/02 08:51:52 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-15 
-2016/05/02 08:51:52 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-16 
-2016/05/02 08:53:04 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-17 
-2016/05/02 08:53:04 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-18 
-2016/05/02 08:54:16 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-20 
-2016/05/02 08:54:16 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-19 
-2016/05/02 08:55:29 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-21 
-2016/05/02 08:55:29 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-22 
-2016/05/02 08:56:41 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-23 
-2016/05/02 08:56:41 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-24 
-2016/05/02 08:57:52 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-25 
-2016/05/02 08:57:52 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-26 
-2016/05/02 09:04:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-27 
-2016/05/02 09:04:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-34 
-2016/05/02 09:04:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-36 
-2016/05/02 09:04:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-33 
-2016/05/02 09:04:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-35 
-2016/05/02 09:04:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-32 
-2016/05/02 09:04:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-30 
-2016/05/02 09:04:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-31 
-2016/05/02 09:04:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-28 
-2016/05/02 09:04:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-29 
-2016/05/02 09:04:26 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.SocketException: Connection reset
-	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+2016/05/12 10:00:57 INFO  - jmeter.util.JMeterUtils: Setting Locale to en_US 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: Loading user properties from: /Users/alongir/.bzt/jmeter-taurus/bin/user.properties 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: Loading system properties from: /Users/alongir/.bzt/jmeter-taurus/bin/system.properties 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: Copyright (c) 1998-2015 The Apache Software Foundation 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: Version 2.13 r1665067 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: java.version=1.8.0_77 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: os.name=Mac OS X 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: os.arch=x86_64 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: os.version=10.11.3 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: file.encoding=UTF-8 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: Default Locale=English (United States) 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: JMeter  Locale=English (United States) 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: JMeterHome=/Users/alongir/.bzt/jmeter-taurus 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: user.dir  =/Users/alongir/PhpstormProjects/meetup-taurus040616 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: PWD       =/Users/alongir/PhpstormProjects/meetup-taurus040616 
+2016/05/12 10:00:57 INFO  - jmeter.JMeter: IP: 172.20.10.11 Name: Alons-MacBook-Pro.local FullName: 172.20.10.11 
+2016/05/12 10:00:58 INFO  - jmeter.gui.action.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System] 
+2016/05/12 10:00:58 INFO  - jmeter.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties 
+2016/05/12 10:01:00 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must contain the string: '.functions.' 
+2016/05/12 10:01:00 INFO  - jmeter.engine.util.CompoundVariable: Note: Function class names must not contain the string: '.gui.' 
+2016/05/12 10:01:03 INFO  - jmeter.util.BSFTestElement: Registering JMeter version of JavaScript engine as work-round for BSF-22 
+2016/05/12 10:01:03 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Cannot find .className property for htmlParser, using default 
+2016/05/12 10:01:03 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/html is  
+2016/05/12 10:01:03 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xhtml+xml is  
+2016/05/12 10:01:03 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for application/xml is  
+2016/05/12 10:01:03 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/xml is  
+2016/05/12 10:01:03 INFO  - jmeter.protocol.http.sampler.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser 
+2016/05/12 10:01:03 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.control.gui.WebServiceSamplerGui 
+2016/05/12 10:01:03 INFO  - jmeter.gui.util.MenuFactory: Skipping org.apache.jmeter.protocol.http.modifier.gui.ParamModifierGui 
+2016/05/12 10:01:03 INFO  - jorphan.exec.KeyToolUtils: keytool found at 'keytool' 
+2016/05/12 10:01:03 INFO  - jmeter.protocol.http.proxy.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/alongir/.bzt/jmeter-taurus/bin/proxyserver.jks 
+2016/05/12 10:01:04 INFO  - jmeter.samplers.SampleResult: Note: Sample TimeStamps are START times 
+2016/05/12 10:01:04 INFO  - jmeter.samplers.SampleResult: sampleresult.default.encoding is set to ISO-8859-1 
+2016/05/12 10:01:04 INFO  - jmeter.samplers.SampleResult: sampleresult.useNanoTime=true 
+2016/05/12 10:01:04 INFO  - jmeter.samplers.SampleResult: sampleresult.nanoThreadSleep=5000 
+2016/05/12 10:01:16 INFO  - jmeter.services.FileServer: Default base='/Users/alongir/PhpstormProjects/meetup-taurus040616' 
+2016/05/12 10:01:16 INFO  - jmeter.gui.action.Load: Loading file: /Users/alongir/jmx/rc_dyn_1m_gen2.jmx 
+2016/05/12 10:01:16 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/jmx' 
+2016/05/12 10:01:16 INFO  - jmeter.save.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2 
+2016/05/12 10:01:16 INFO  - jmeter.save.SaveService: Using SaveService properties file encoding UTF-8 
+2016/05/12 10:01:16 INFO  - jmeter.save.SaveService: Using SaveService properties file version 1656252 
+2016/05/12 10:01:16 INFO  - jmeter.save.SaveService: Using SaveService properties version 2.8 
+2016/05/12 10:01:16 INFO  - jmeter.save.SaveService: All converter versions present and correct 
+2016/05/12 10:01:16 INFO  - jmeter.save.SaveService: Loading file: /Users/alongir/jmx/rc_dyn_1m_gen2.jmx 
+2016/05/12 10:01:16 INFO  - jmeter.services.FileServer: Set new base='/Users/alongir/jmx' 
+2016/05/12 10:01:40 INFO  - jmeter.engine.StandardJMeterEngine: Listeners will be started after enabling running version 
+2016/05/12 10:01:40 INFO  - jmeter.engine.StandardJMeterEngine: To revert to the earlier behaviour, define jmeterengine.startlistenerslater=false 
+2016/05/12 10:01:40 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/05/12 10:01:40 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/05/12 10:01:40 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/05/12 10:01:40 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Storing results for upload to Sense: /tmp/Sense_391390696767300301.jtl 
+2016/05/12 10:01:40 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Starting BM.Sense online test 
+2016/05/12 10:01:41 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Started active test: https://sense.blazemeter.com/gui/active/2bdeae05/ 
+2016/05/12 10:01:41 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/05/12 10:01:41 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Concurrency Thread Group 
+2016/05/12 10:01:41 INFO  - jmeter.engine.StandardJMeterEngine: Starting 100 threads for group bzm - Concurrency Thread Group. 
+2016/05/12 10:01:41 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/05/12 10:01:41 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/05/12 10:01:41 INFO  - com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadStarter: Start supplying threads 
+2016/05/12 10:01:41 INFO  - jmeter.threads.JMeterThread: jmeterthread.startearlier=true (see jmeter.properties) 
+2016/05/12 10:01:41 INFO  - jmeter.threads.JMeterThread: Running PostProcessors in forward order 
+2016/05/12 10:01:41 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-1 
+2016/05/12 10:01:41 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-2 
+2016/05/12 10:02:53 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-3 
+2016/05/12 10:02:53 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-4 
+2016/05/12 10:04:05 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-5 
+2016/05/12 10:04:05 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-6 
+2016/05/12 10:05:17 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-7 
+2016/05/12 10:05:17 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-8 
+2016/05/12 10:06:30 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-9 
+2016/05/12 10:06:30 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-10 
+2016/05/12 10:07:41 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-11 
+2016/05/12 10:07:41 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-12 
+2016/05/12 10:08:53 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-13 
+2016/05/12 10:08:53 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-14 
+2016/05/12 10:10:05 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-15 
+2016/05/12 10:10:05 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-16 
+2016/05/12 10:11:17 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-18 
+2016/05/12 10:11:17 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-17 
+2016/05/12 10:12:30 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-19 
+2016/05/12 10:12:30 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-20 
+2016/05/12 10:13:41 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-22 
+2016/05/12 10:13:41 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-21 
+2016/05/12 10:14:53 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-23 
+2016/05/12 10:14:53 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-24 
+2016/05/12 10:16:05 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-25 
+2016/05/12 10:16:05 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-26 
+2016/05/12 10:17:18 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-27 
+2016/05/12 10:17:18 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-28 
+2016/05/12 10:18:30 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-29 
+2016/05/12 10:18:30 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-30 
+2016/05/12 10:19:41 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-31 
+2016/05/12 10:19:41 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-32 
+2016/05/12 10:20:53 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-33 
+2016/05/12 10:20:53 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-34 
+2016/05/12 10:22:05 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-35 
+2016/05/12 10:22:05 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-36 
+2016/05/12 10:23:17 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-37 
+2016/05/12 10:23:17 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-38 
+2016/05/12 10:24:30 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-39 
+2016/05/12 10:24:30 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-40 
+2016/05/12 10:25:41 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-41 
+2016/05/12 10:25:41 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-42 
+2016/05/12 10:26:53 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-43 
+2016/05/12 10:26:53 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-44 
+2016/05/12 10:28:05 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-46 
+2016/05/12 10:28:05 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-45 
+2016/05/12 10:28:12 INFO  - jmeter.gui.action.Start: Stopping test 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-1 
+2016/05/12 10:28:12 INFO  - com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadStarter: Done supplying threads 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-1 sampler: Download 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-26 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-26 sampler: Login 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-38 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-41 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-41 sampler: Login 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-5 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-21 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-21 sampler: Checkout 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-16 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-16 sampler: Checkout 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-3 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-3 sampler: Login 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-14 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-14 sampler: arbitrary1 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-40 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-40 sampler: Download 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-29 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-29 sampler: Checkout 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-32 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-32 sampler: Download 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-25 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-25 sampler: Download 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-35 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-45 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-17 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-17 sampler: Login 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-33 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-33 sampler: Download 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-7 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-7 sampler: Login 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-19 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-37 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-37 sampler: Download 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-2 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-24 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-24 sampler: Download 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-12 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-12 sampler: arbitrary2 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-46 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-8 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-8 sampler: Checkout 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-28 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-28 sampler: Checkout 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-36 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-36 sampler: arbitrary2 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-13 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-13 sampler: Download 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-27 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-4 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-4 sampler: Checkout 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-39 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-34 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-34 sampler: Login 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-22 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-22 sampler: Login 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-10 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-10 sampler: Download 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-6 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-6 sampler: Download 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-11 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-18 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-18 sampler: Checkout 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-43 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-43 sampler: Login 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-15 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-15 sampler: Login 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-23 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-23 sampler: Login 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-31 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-44 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-44 sampler: Login 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-9 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-9 sampler: Download 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-20 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-20 sampler: Download 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-42 
+2016/05/12 10:28:12 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-30 
+2016/05/12 10:28:12 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-30 sampler: arbitrary1 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-5 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-5 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-31 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-31 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-39 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-39 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-2 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-2 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-38 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-38 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-19 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-19 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-42 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-42 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-35 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-35 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-45 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-45 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-46 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-46 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-11 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-11 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-33 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-33 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-27 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-27 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-7 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-7 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-21 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-21 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-16 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-16 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-32 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-32 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-9 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-9 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-6 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-6 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-20 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-20 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-1 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-1 
+2016/05/12 10:28:13 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-10 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-10 
+2016/05/12 10:28:13 INFO  - jmeter.reporters.ResultCollector: forced flush through ResultCollecto#flushFile 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-29 
+2016/05/12 10:28:13 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Successfully flushed results file 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-29 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-3 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-3 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-22 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-22 
+2016/05/12 10:28:13 INFO  - org.loadosophia.jmeter.LoadosophiaAPIClient: Preparing files to send 
+2016/05/12 10:28:13 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Gzipping /tmp/Sense_391390696767300301.jtl 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-8 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-8 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-18 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-18 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-37 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-37 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-25 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-25 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-26 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-26 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-43 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-43 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-4 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-4 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-34 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-34 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-28 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-28 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-40 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-40 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-23 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-23 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-24 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-24 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-17 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-17 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-13 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-13 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-15 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-15 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-41 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-41 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-44 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-44 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-12 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-12 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-36 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-36 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-30 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-30 
+2016/05/12 10:28:13 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Starting upload to BM.Sense 
+2016/05/12 10:28:13 WARN  - org.apache.commons.httpclient.SimpleHttpConnectionManager: SimpleHttpConnectionManager being used incorrectly.  Be sure that HttpMethod.releaseConnection() is always called and that only one thread and/or method is using this connection manager at a time. 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-14 
+2016/05/12 10:28:13 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-14 
+2016/05/12 10:28:16 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Saving server error response to: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/error_7777820520551320604.html 
+2016/05/12 10:28:16 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data org.apache.commons.httpclient.ProtocolException: Unable to parse header: X-Content-LC
+	at org.apache.commons.httpclient.HttpParser.parseHeaders(HttpParser.java:202)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponseHeaders(HttpMethodBase.java:1935)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1737)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:198)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendOnlineData(LoadosophiaAPIClient.java:116)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.run(LoadosophiaConsolidator.java:226)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:28:16 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Failed to upload results to BM.Sense, see log for detais: Request returned not 200 status code: 400 
+2016/05/12 10:28:16 ERROR - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to upload results to BM.Sense org.apache.commons.httpclient.HttpException: Request returned not 200 status code: 400
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:206)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendFiles(LoadosophiaAPIClient.java:76)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.stop(LoadosophiaConsolidator.java:119)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.remove(LoadosophiaConsolidator.java:80)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:47)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:33)
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:226)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:448)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:28:16 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Ending BM.Sense online test 
+2016/05/12 10:28:16 WARN  - org.apache.commons.httpclient.SimpleHttpConnectionManager: SimpleHttpConnectionManager being used incorrectly.  Be sure that HttpMethod.releaseConnection() is always called and that only one thread and/or method is using this connection manager at a time. 
+2016/05/12 10:28:16 INFO  - org.apache.commons.httpclient.HttpMethodBase: Response content length is not known 
+2016/05/12 10:28:16 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Saving server error response to: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/error_4109383441572121200.html 
+2016/05/12 10:28:21 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to finalize active test java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:198)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.endOnline(LoadosophiaAPIClient.java:123)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.finishOnline(LoadosophiaConsolidator.java:270)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.stop(LoadosophiaConsolidator.java:129)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.remove(LoadosophiaConsolidator.java:80)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:47)
+	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:33)
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:226)
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:448)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:28:21 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.nio.channels.ClosedByInterruptException
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:216)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:204)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendOnlineData(LoadosophiaAPIClient.java:116)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.run(LoadosophiaConsolidator.java:226)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:28:21 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/05/12 10:28:24 INFO  - jmeter.engine.StandardJMeterEngine: Running the test! 
+2016/05/12 10:28:24 INFO  - jmeter.samplers.SampleEvent: List of sample_variables: [] 
+2016/05/12 10:28:24 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Storing results for upload to Sense: /tmp/Sense_2937996538836784246.jtl 
+2016/05/12 10:28:24 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Starting BM.Sense online test 
+2016/05/12 10:28:24 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Started active test: https://sense.blazemeter.com/gui/active/aa78e976/ 
+2016/05/12 10:28:24 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(true,*local*) 
+2016/05/12 10:28:25 INFO  - jmeter.engine.StandardJMeterEngine: Starting ThreadGroup: 1 : bzm - Concurrency Thread Group 
+2016/05/12 10:28:25 INFO  - jmeter.engine.StandardJMeterEngine: Starting 100 threads for group bzm - Concurrency Thread Group. 
+2016/05/12 10:28:25 INFO  - jmeter.engine.StandardJMeterEngine: Thread will continue on error 
+2016/05/12 10:28:25 INFO  - jmeter.engine.StandardJMeterEngine: All thread groups have been started 
+2016/05/12 10:28:25 INFO  - com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadStarter: Start supplying threads 
+2016/05/12 10:28:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-1 
+2016/05/12 10:28:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-2 
+2016/05/12 10:29:37 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-3 
+2016/05/12 10:29:37 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-4 
+2016/05/12 10:30:49 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-5 
+2016/05/12 10:30:49 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-6 
+2016/05/12 10:32:02 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-7 
+2016/05/12 10:32:02 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-8 
+2016/05/12 10:33:14 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-9 
+2016/05/12 10:33:14 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-10 
+2016/05/12 10:34:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-11 
+2016/05/12 10:34:25 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-12 
+2016/05/12 10:34:52 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
 	at java.net.SocketInputStream.read(SocketInputStream.java:141)
 	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
 	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
@@ -121,224 +410,48 @@
 	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.run(LoadosophiaConsolidator.java:226)
 	at java.lang.Thread.run(Thread.java:745)
 
-2016/05/02 09:05:05 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-37 
-2016/05/02 09:05:05 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-38 
-2016/05/02 09:06:16 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-39 
-2016/05/02 09:06:16 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-40 
-2016/05/02 09:07:28 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-41 
-2016/05/02 09:07:28 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-42 
-2016/05/02 09:08:40 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-43 
-2016/05/02 09:08:40 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-44 
-2016/05/02 09:09:52 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-45 
-2016/05/02 09:09:52 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-46 
-2016/05/02 09:11:04 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-47 
-2016/05/02 09:11:04 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-48 
-2016/05/02 09:12:17 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-49 
-2016/05/02 09:12:17 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-50 
-2016/05/02 09:13:07 INFO  - jmeter.gui.action.Start: Stopping test 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-24 
-2016/05/02 09:13:07 INFO  - com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadStarter: Done supplying threads 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-24 sampler: Checkout 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-44 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-11 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-11 sampler: Checkout 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-45 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-45 sampler: arbitrary2 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-12 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-12 sampler: Download 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-30 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-30 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-47 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-47 sampler: Checkout 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-26 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-36 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-36 sampler: arbitrary1 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-16 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-16 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-8 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-8 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-22 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-22 sampler: Download 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-48 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-48 sampler: arbitrary1 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-25 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-25 sampler: Download 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-18 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-18 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-35 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-35 sampler: Download 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-27 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-27 sampler: Checkout 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-10 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-19 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-19 sampler: arbitrary1 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-29 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-29 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-3 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-3 sampler: Download 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-42 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-42 sampler: Checkout 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-1 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-1 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-2 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-2 sampler: Checkout 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-39 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-39 sampler: Checkout 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-5 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-5 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-17 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-17 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-9 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-9 sampler: Download 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-20 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-28 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-28 sampler: Checkout 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-46 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-46 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-6 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-6 sampler: Checkout 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-13 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-40 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-40 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-43 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-31 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-31 sampler: Download 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-50 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-50 sampler: arbitrary2 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-33 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-7 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-7 sampler: Download 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-38 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-38 sampler: Download 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-4 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-4 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-21 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-21 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-49 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-49 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-32 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-32 sampler: Checkout 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-37 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-37 sampler: Download 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-15 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-15 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-34 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-23 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-23 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-41 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Stopping: bzm - Concurrency Thread Group 1-14 
-2016/05/02 09:13:07 WARN  - jmeter.threads.JMeterThread: Interrupting: bzm - Concurrency Thread Group 1-14 sampler: Login 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-41 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-41 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-33 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-43 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-33 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-43 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-44 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-13 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-44 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-13 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-26 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-26 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-20 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-20 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-10 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-10 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-34 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-34 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-25 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-25 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-30 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-30 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-7 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-7 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-48 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-48 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-27 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-27 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-24 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-24 
-2016/05/02 09:13:07 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
-2016/05/02 09:13:07 INFO  - jmeter.reporters.ResultCollector: forced flush through ResultCollecto#flushFile 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-28 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-28 
-2016/05/02 09:13:07 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Successfully flushed results file 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-4 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-4 
-2016/05/02 09:13:07 INFO  - org.loadosophia.jmeter.LoadosophiaAPIClient: Preparing files to send 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-17 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-17 
-2016/05/02 09:13:07 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Gzipping /tmp/Sense_7784399312698587624.jtl 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-2 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-2 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-38 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-38 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-32 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-32 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-16 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-16 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-35 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-35 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-46 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-46 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-45 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-15 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-15 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-45 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-12 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-12 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-29 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-29 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-39 
-2016/05/02 09:13:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-39 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-6 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-6 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-21 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-21 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-23 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-23 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-14 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-14 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-47 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-47 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-5 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-5 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-8 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-8 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-11 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-11 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-19 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-19 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-1 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-1 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-42 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-42 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-37 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-37 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-22 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-22 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-18 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-18 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-40 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-40 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-3 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-3 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-49 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-49 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-50 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-50 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-31 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-31 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-9 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-9 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-36 
-2016/05/02 09:13:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-36 
-2016/05/02 09:13:08 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Starting upload to BM.Sense 
-2016/05/02 09:13:08 WARN  - org.apache.commons.httpclient.SimpleHttpConnectionManager: SimpleHttpConnectionManager being used incorrectly.  Be sure that HttpMethod.releaseConnection() is always called and that only one thread and/or method is using this connection manager at a time. 
-2016/05/02 09:13:09 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Saving server error response to: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/error_3115834143210894986.html 
-2016/05/02 09:13:09 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Saving server error response to: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/error_2401983495494460664.html 
-2016/05/02 09:13:09 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.SocketException: Socket closed
-	at java.net.SocketInputStream.read(SocketInputStream.java:203)
+2016/05/12 10:34:53 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:34:57 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:35:02 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:35:38 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-13 
+2016/05/12 10:35:38 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-14 
+2016/05/12 10:35:39 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
 	at java.net.SocketInputStream.read(SocketInputStream.java:141)
 	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
 	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
@@ -346,39 +459,11 @@
 	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930)
 	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
 	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
-	at java.io.BufferedInputStream.read1(BufferedInputStream.java:286)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:345)
-	at org.apache.commons.httpclient.ContentLengthInputStream.read(ContentLengthInputStream.java:170)
-	at java.io.FilterInputStream.read(FilterInputStream.java:133)
-	at org.apache.commons.httpclient.AutoCloseInputStream.read(AutoCloseInputStream.java:108)
-	at java.io.FilterInputStream.read(FilterInputStream.java:107)
-	at org.apache.commons.httpclient.AutoCloseInputStream.read(AutoCloseInputStream.java:127)
-	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1792)
-	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1769)
-	at org.apache.commons.io.IOUtils.copy(IOUtils.java:1744)
-	at org.apache.commons.io.IOUtils.toByteArray(IOUtils.java:462)
-	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:204)
-	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendOnlineData(LoadosophiaAPIClient.java:116)
-	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.run(LoadosophiaConsolidator.java:226)
-	at java.lang.Thread.run(Thread.java:745)
-
-2016/05/02 09:13:09 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Failed to upload results to BM.Sense, see log for detais: Request returned not 200 status code: 400 
-2016/05/02 09:13:09 ERROR - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to upload results to BM.Sense org.apache.commons.httpclient.HttpException: Request returned not 200 status code: 400
-	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:206)
-	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendFiles(LoadosophiaAPIClient.java:76)
-	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.stop(LoadosophiaConsolidator.java:119)
-	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.remove(LoadosophiaConsolidator.java:80)
-	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:47)
-	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:33)
-	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:226)
-	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:448)
-	at java.lang.Thread.run(Thread.java:745)
-
-2016/05/02 09:13:09 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Ending BM.Sense online test 
-2016/05/02 09:13:09 WARN  - org.apache.commons.httpclient.SimpleHttpConnectionManager: SimpleHttpConnectionManager being used incorrectly.  Be sure that HttpMethod.releaseConnection() is always called and that only one thread and/or method is using this connection manager at a time. 
-2016/05/02 09:13:10 INFO  - org.apache.commons.httpclient.HttpMethodBase: Response content length is not known 
-2016/05/02 09:13:10 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data org.apache.commons.httpclient.ProtocolException: The server sense.blazemeter.com failed to respond with a valid HTTP response
-	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1987)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
 	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
 	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
 	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
@@ -390,27 +475,534 @@
 	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.run(LoadosophiaConsolidator.java:226)
 	at java.lang.Thread.run(Thread.java:745)
 
-2016/05/02 09:13:10 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Saving server error response to: /var/folders/km/2dmb9qfd7qg4m0x9bks9qnkc0000gn/T/error_2014914753672313644.html 
-2016/05/02 09:13:10 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to finalize active test java.io.IOException: Stream closed
-	at java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:170)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:336)
-	at java.io.FilterInputStream.read(FilterInputStream.java:133)
-	at org.apache.commons.httpclient.AutoCloseInputStream.read(AutoCloseInputStream.java:108)
-	at java.io.FilterInputStream.read(FilterInputStream.java:107)
-	at org.apache.commons.httpclient.AutoCloseInputStream.read(AutoCloseInputStream.java:127)
-	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1792)
-	at org.apache.commons.io.IOUtils.copyLarge(IOUtils.java:1769)
-	at org.apache.commons.io.IOUtils.copy(IOUtils.java:1744)
-	at org.apache.commons.io.IOUtils.toByteArray(IOUtils.java:462)
-	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:204)
-	at org.loadosophia.jmeter.LoadosophiaAPIClient.endOnline(LoadosophiaAPIClient.java:123)
-	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.finishOnline(LoadosophiaConsolidator.java:270)
-	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.stop(LoadosophiaConsolidator.java:129)
-	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.remove(LoadosophiaConsolidator.java:80)
-	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:47)
-	at kg.apc.jmeter.reporters.LoadosophiaUploader.testEnded(LoadosophiaUploader.java:33)
-	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:226)
-	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:448)
+2016/05/12 10:35:39 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
 	at java.lang.Thread.run(Thread.java:745)
 
-2016/05/02 09:13:10 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
+2016/05/12 10:35:44 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:35:49 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:36:25 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:198)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendOnlineData(LoadosophiaAPIClient.java:116)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.run(LoadosophiaConsolidator.java:226)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:36:27 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:36:31 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:36:36 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:36:50 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-15 
+2016/05/12 10:36:50 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-16 
+2016/05/12 10:37:12 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:198)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendOnlineData(LoadosophiaAPIClient.java:116)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.run(LoadosophiaConsolidator.java:226)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:37:12 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:37:17 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:37:22 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:37:37 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.InputRecord.readFully(InputRecord.java:465)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:503)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:973)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:930)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at org.apache.commons.httpclient.HttpParser.readRawLine(HttpParser.java:78)
+	at org.apache.commons.httpclient.HttpParser.readLine(HttpParser.java:106)
+	at org.apache.commons.httpclient.HttpConnection.readLine(HttpConnection.java:1116)
+	at org.apache.commons.httpclient.HttpMethodBase.readStatusLine(HttpMethodBase.java:1973)
+	at org.apache.commons.httpclient.HttpMethodBase.readResponse(HttpMethodBase.java:1735)
+	at org.apache.commons.httpclient.HttpMethodBase.execute(HttpMethodBase.java:1098)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:398)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:198)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendOnlineData(LoadosophiaAPIClient.java:116)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.run(LoadosophiaConsolidator.java:226)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:37:42 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 5000 ms
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory.createSocket(ControllerThreadSocketFactory.java:97)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:133)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:198)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendOnlineData(LoadosophiaAPIClient.java:116)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.run(LoadosophiaConsolidator.java:226)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-17 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-18 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-19 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-20 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-21 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-22 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-23 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-24 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-25 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-26 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-27 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-28 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-29 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-30 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-31 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-32 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-33 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-34 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-35 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-36 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-37 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-38 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-39 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-40 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-41 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-42 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-43 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-44 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-45 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-46 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-47 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-48 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-49 
+2016/05/12 10:57:44 INFO  - jmeter.threads.JMeterThread: Thread started: bzm - Concurrency Thread Group 1-50 
+2016/05/12 10:57:46 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data org.apache.commons.httpclient.ConnectTimeoutException: The host did not accept the connection within timeout of 5000 ms
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory.createSocket(ControllerThreadSocketFactory.java:97)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:133)
+	at org.apache.commons.httpclient.HttpConnection.open(HttpConnection.java:707)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeWithRetry(HttpMethodDirector.java:387)
+	at org.apache.commons.httpclient.HttpMethodDirector.executeMethod(HttpMethodDirector.java:171)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:397)
+	at org.apache.commons.httpclient.HttpClient.executeMethod(HttpClient.java:323)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.multipartPost(LoadosophiaAPIClient.java:198)
+	at org.loadosophia.jmeter.LoadosophiaAPIClient.sendOnlineData(LoadosophiaAPIClient.java:116)
+	at kg.apc.jmeter.reporters.LoadosophiaConsolidator.run(LoadosophiaConsolidator.java:226)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:57:46 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:57:50 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:57:55 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:58:00 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:58:05 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:58:10 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 10:58:15 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.threads.concurrency.ConcurrencyThreadStarter: Done supplying threads 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-7 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-7 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-7 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-16 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-16 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-16 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-17 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-17 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-17 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-18 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-18 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-18 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-20 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-20 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-22 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-22 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-22 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-6 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-6 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-6 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-4 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-4 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-4 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-3 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-3 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-3 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-21 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-21 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-21 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-20 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-9 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-9 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-9 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-30 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-29 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-28 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-28 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-28 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-29 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-29 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-30 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-30 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-24 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-24 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-24 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-33 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-33 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-33 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-34 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-34 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-34 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-35 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-35 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-35 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-36 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-36 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-36 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-37 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-37 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-37 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-40 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-40 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-40 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-45 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-45 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-45 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-46 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-46 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-46 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-47 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-47 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-47 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-48 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-48 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-48 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-49 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-49 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-49 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-50 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-50 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-50 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-15 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-15 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-15 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-8 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-8 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-8 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-13 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-13 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-13 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-5 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-5 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-5 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-31 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-31 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-31 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-14 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-14 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-14 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-23 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-23 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-23 
+2016/05/12 12:56:06 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-25 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-25 
+2016/05/12 12:56:06 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-25 
+2016/05/12 12:56:07 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-10 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-10 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-10 
+2016/05/12 12:56:07 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-19 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-19 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-19 
+2016/05/12 12:56:07 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-26 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-26 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-26 
+2016/05/12 12:56:07 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-11 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-11 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-11 
+2016/05/12 12:56:07 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-44 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-44 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-44 
+2016/05/12 12:56:07 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-41 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-41 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-41 
+2016/05/12 12:56:07 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-39 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-39 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-39 
+2016/05/12 12:56:07 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-42 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-42 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-42 
+2016/05/12 12:56:07 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-32 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-32 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-32 
+2016/05/12 12:56:07 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to send active test data java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 12:56:07 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-38 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-38 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-38 
+2016/05/12 12:56:07 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-12 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-12 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-12 
+2016/05/12 12:56:07 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-27 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-27 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-27 
+2016/05/12 12:56:07 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-2 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-2 
+2016/05/12 12:56:07 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-2 
+2016/05/12 12:56:08 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-43 
+2016/05/12 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-43 
+2016/05/12 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-43 
+2016/05/12 12:56:08 INFO  - com.blazemeter.jmeter.control.VirtualUserController: Test limit reached, thread is done: bzm - Concurrency Thread Group 1-1 
+2016/05/12 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread is done: bzm - Concurrency Thread Group 1-1 
+2016/05/12 12:56:08 INFO  - jmeter.threads.JMeterThread: Thread finished: bzm - Concurrency Thread Group 1-1 
+2016/05/12 12:56:08 INFO  - jmeter.engine.StandardJMeterEngine: Notifying test listeners of end of test 
+2016/05/12 12:56:08 INFO  - jmeter.reporters.ResultCollector: forced flush through ResultCollecto#flushFile 
+2016/05/12 12:56:08 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Successfully flushed results file 
+2016/05/12 12:56:08 INFO  - org.loadosophia.jmeter.LoadosophiaAPIClient: Preparing files to send 
+2016/05/12 12:56:08 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Gzipping /tmp/Sense_2937996538836784246.jtl 
+2016/05/12 12:56:08 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Starting upload to BM.Sense 
+2016/05/12 12:56:08 INFO  - kg.apc.jmeter.reporters.LoadosophiaUploader: Failed to upload results to BM.Sense, see log for detais: sense.blazemeter.com 
+2016/05/12 12:56:08 ERROR - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to upload results to BM.Sense java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 12:56:08 INFO  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Ending BM.Sense online test 
+2016/05/12 12:56:08 WARN  - kg.apc.jmeter.reporters.LoadosophiaConsolidator: Failed to finalize active test java.net.UnknownHostException: sense.blazemeter.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:668)
+	at sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:472)
+	at sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153)
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91)
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158)
+	at java.lang.Thread.run(Thread.java:745)
+
+2016/05/12 12:56:08 INFO  - jmeter.gui.util.JMeterMenuBar: setRunning(false,*local*) 
